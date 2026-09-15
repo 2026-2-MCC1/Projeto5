@@ -14,7 +14,7 @@ Vide tutoriais do PI.
 
 ## Nome do Grupo
 
-## Integrantes: <a href="https://www.linkedin.com/in/gustavo-g%C3%BCering-aa9583403?utm_source=share_via&utm_content=profile&utm_medium=member_ios">Gustavo Güeringg</a>, <a href="https://www.linkedin.com/in/aur%C3%A9lio-felippo-9581372a2/">Felippo Cruz</a>, <a href="https://www.linkedin.com/in/gustavo-minelli-1ba9b03b4?utm_source=share_via&utm_content=profile&utm_medium=member_android">Gustavo Minelli</a>
+## Integrantes: <a href="https://www.linkedin.com/in/gustavo-g%C3%BCering-aa9583403?utm_source=share_via&utm_content=profile&utm_medium=member_ios">Gustavo Güering</a>, <a href="https://github.com/ThomasJanini">Thomas Janini</a>, <a href="https://www.linkedin.com/in/aur%C3%A9lio-felippo-9581372a2/">Felippo Cruz</a>, <a href="https://www.linkedin.com/in/gustavo-minelli-1ba9b03b4?utm_source=share_via&utm_content=profile&utm_medium=member_android">Gustavo Minelli</a>
 
 ## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Dr. Victor Von Doom</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Saitama</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Strange</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Yoda</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Gero</a>
 
