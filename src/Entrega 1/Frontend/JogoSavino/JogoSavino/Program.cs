@@ -64,7 +64,12 @@ while (true)
     int n = 0;
     while (n != 2 && n != 3)
     {
-        n = int.Parse(Console.ReadLine().ToUpper());
+        string input = (Console.ReadLine().Trim().ToUpper());
+        { if (input == "DESISTO")
+                GiveUp();
+        }
+
+        if (int.TryParse(input, out n))
         if (n != 1 && n != 2 && n != 3 && n != 4)
         {
             TypeMessage("Opção inválida, tente novamente.", 15);
@@ -124,8 +129,15 @@ while (true)
 
         int n = 0;
         while (n != 1 && n != 2)
+        
         {
-            n = int.Parse(Console.ReadLine().ToUpper());
+            string input = (Console.ReadLine().ToUpper());
+            {
+                if (input == "DESISTO")
+                    GiveUp();
+            }
+
+            if (int.TryParse(input, out n))
             if (n != 1 && n != 2)
             {
                 TypeMessage("Opção inválida, tente novamente.", 15);
@@ -134,28 +146,33 @@ while (true)
             {
                 TypeMessage("Você pega esse punhado de clips, e volta para seu computador. Pesquisando - Como destrancar uma fechadura com um clips. -", 15);
                 TypeMessage("- Fechaduras têm suas próprias trancas, as quais você precisa apertar em uma ordem específica que nunca muda, mas para cada tranca é uma. -", 15);
+                Console.WriteLine("(MECANICAMENTE: para descobrir, você precisa acertar 5 dígitos de 0 a 6, se você acertar o número, a senha indicará 'Tik', se o número correto for maior do que você digitou, a senha indicará 'Tek', e se o número correto for menor do que você digitou, a senha indicará 'Tuk')");
 
                 Random random = new Random();
-                int[] Answer = new int[5];
+                string[] Answer = new string[5];
                 for (int i = 0; i < Answer.Length; i++)
                 {
-                    Answer[i] = random.Next(1, 7);
+                    Answer[i] = random.Next(1, 7).ToString();
                 }
 
                 string Result = string.Join("", Answer);
                 string GivenAnswer = "";
 
-                while (Result != GivenAnswer && Energy > 0)
-                {
-                    Console.WriteLine("Energia: " + Energy);
-                    Console.Write("Senha: ");
-                    GivenAnswer = Console.ReadLine().ToUpper();
-
-                    if (GivenAnswer.Length != Answer.Length || !GivenAnswer.All(char.IsDigit))
+                    while (Result != GivenAnswer && Energy > 0)
                     {
-                        Console.WriteLine($"Por favor, digite exatamente {Answer.Length} números!");
-                        continue;
-                    }
+                        Console.WriteLine("Energia: " + Energy);
+                        Console.Write("Senha: ");
+                        GivenAnswer = Console.ReadLine().ToUpper();
+                        if (GivenAnswer == "DESISTO")
+                            GiveUp();
+                        
+                        
+
+                        else if (GivenAnswer.Length != Answer.Length || !GivenAnswer.All(char.IsDigit))
+                        {
+                            Console.WriteLine($"Por favor, digite exatamente {Answer.Length} números!");
+                            continue;
+                        }
 
                     if (Result != GivenAnswer)
                     {
@@ -164,7 +181,7 @@ while (true)
                         for (int i = 0; i < Answer.Length; i++)
                         {
                             int numeroDigitado = int.Parse(GivenAnswer[i].ToString());
-                            int numeroCerto = Answer[i];
+                                int numeroCerto = int.Parse(Answer[i].ToString());
                             if (numeroDigitado > numeroCerto)
                             {
                                 feedback[i] = "Tuk"; // Maior
@@ -252,7 +269,8 @@ while (true)
 
     static void GiveUp()
     {
-        TypeMessage("Muito trampo... você digita uma mensagem para o seu chefe falando que não poderá comparecer no próximo dia, e vai dormir em uma cadeira. Você acorda no próxximo dia de manhãnormalmente. Não a tempo de ir ao trabalho, mas a tempo de pedir para algum segurança do período matutino te tirar da sala e você poder voltar para a sua casa e comer algo normalmente. Derrota", 15);
+        TypeMessage("Muito trampo... você digita uma mensagem para o seu chefe falando que não poderá comparecer no próximo dia, e vai dormir em uma cadeira. Você acorda no próximo dia de manhã normalmente. Não a tempo de ir ao trabalho, mas a tempo de pedir para algum segurança do período matutino te tirar da sala e você poder voltar para a sua casa e comer algo normalmente. Derrota", 15);;
+        return;
     }
     return;
 }
