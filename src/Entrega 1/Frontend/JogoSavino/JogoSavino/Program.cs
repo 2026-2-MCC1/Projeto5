@@ -62,9 +62,9 @@ while (true)
     Console.WriteLine("Pontos: " + Points);
     Console.WriteLine("Energia: " + Energy);
     int n = 0;
-    while (n != 2 && n != 3 && n != 4)
+    while (n != 2 && n != 3)
     {
-        n = int.Parse(Console.ReadLine());
+        n = int.Parse(Console.ReadLine().ToUpper());
         if (n != 1 && n != 2 && n != 3 && n != 4)
         {
             TypeMessage("Opção inválida, tente novamente.", 15);
@@ -125,7 +125,7 @@ while (true)
         int n = 0;
         while (n != 1 && n != 2)
         {
-            n = int.Parse(Console.ReadLine());
+            n = int.Parse(Console.ReadLine().ToUpper());
             if (n != 1 && n != 2)
             {
                 TypeMessage("Opção inválida, tente novamente.", 15);
@@ -149,7 +149,7 @@ while (true)
                 {
                     Console.WriteLine("Energia: " + Energy);
                     Console.Write("Senha: ");
-                    GivenAnswer = Console.ReadLine();
+                    GivenAnswer = Console.ReadLine().ToUpper();
 
                     if (GivenAnswer.Length != Answer.Length || !GivenAnswer.All(char.IsDigit))
                     {
@@ -180,7 +180,6 @@ while (true)
                         }
 
                         TypeMessage(string.Join(", ", feedback), 10);
-                        Console.WriteLine("Energia: " + Energy);
                         VerifyIfDead(Energy);
                     }
                 }
@@ -213,7 +212,6 @@ while (true)
     {
         Energy = 0;
         TypeMessage("Você procura por outras saídas, tenta ser criativo, e encontra uma pequena janela quadrada. Pega com muito esforço alguns gabinetes dos primeiros computadores que você encontra, e os empilha. Com muita esperança, abre a janela e pula! FInalmente livre! Não, você não viu a altura da queda. A queda é fatal, e acaba em sua morte.", 15);
-        Console.WriteLine("Energia: " + Energy);
         SpecialMessage1 = true;
         VerifyIfDead(Energy);
     }
@@ -239,6 +237,7 @@ while (true)
 
     void YouLose()
     {
+        Console.WriteLine("Energia: " + Energy);
         if (SpecialMessage1)
         {
             TypeMessage("Passa-se um bom tempo. Ninguém havia encontrado sinais do corpo, até que ele começa a feder. A sua morte começa a viralizar nas notícias. Pessoas choram, riem, e alguns não se importam o suficiente. A polícia não tem informações suficientes de como isso foi acontecer, por mais que veem uma janela aberta alguns bons metros acima do corpo. A morte é datada como suicídio. Derrota.", 15);
