@@ -7,6 +7,7 @@ int Points = 0;
 int Energy = 10;
 string Nome = null;
 bool SpecialMessage1 = false;
+int Rota = 0;
 while (true)
 {
     Console.WriteLine("Bem vindo ao jogo! Você começa com um total de " + Points + " pontos, precisando chegar a 3 para finalizar o jogo, finalizando os 3 atos para conseguí-los. E começa com um total de " + Energy + " de Energia. Caso chegue a 0 de Energia. Você perde. Caso digite ''Desisto'' em qualquer cena de tensão (Momentos que você pode perder Energia ou ganhar pontos), o jogo acaba em uma derrota. Esse jogo é de narrativa, e a cada momento de tensão na narrativa , a quantidade de pontos e de energia que você tem irá aparecer. Boa sorte.");
@@ -147,8 +148,12 @@ while (true)
             {
                 TypeMessage("Você pega esse punhado de clips, e volta para seu computador. Pesquisando - Como destrancar uma fechadura com um clips. -", 15);
                 TypeMessage("- Fechaduras têm suas próprias trancas, as quais você precisa apertar em uma ordem específica que nunca muda, mas para cada tranca é uma. -", 15);
-                Console.WriteLine("(MECANICAMENTE: para descobrir, você precisa acertar 5 dígitos de 0 a 6, se você acertar o número, a senha indicará 'Tik', se o número correto for maior do que você digitou, a senha indicará 'Tek', e se o número correto for menor do que você digitou, a senha indicará 'Tuk')");
-
+                Console.WriteLine("(MECANICAMENTE: Para descobrir, você precisa acertar 5 dígitos de 1 a 6. O sistema irá lhe responder com uma série de onomatopeias que podem significar uma de três coisas:");
+                Console.WriteLine("1 - O número digitado é MAIOR do que aquele que você quer descobrir.");
+                Console.WriteLine("2 - O número digitado é MENOR do que aquele que você quer descobrir.");
+                Console.WriteLine("3 - O número digitado É aquele que você quer descobrir.");
+                Console.WriteLine("Simples assim! Não é? ...ok, talvez seja um pouco complicado. Vamos fazer uma rodada de exemplo.");
+                Console.WriteLine("Nesse nosso exemplo, a senha correta será 12345. A onomatopeia de 'Maior' será 'Blam', a de 'Menor' será 'Blem', e 'Certo' será 'Blim', os significados NUNCA irão mudar no meio do jogo. Se você chutar a senha 33333, o primeiro número que você quer é maior do que o que você digitou. Maior é 'Blam', então para esse número você receberia 'Blam'. O chute todo ficaria 'Maior, Maior, Certo, Menor, Menor'. Resultando em 'Blam, Blam, Blim, Blem, Blem'. Nesse caso, você saberá que está tudo certo se seu chute ficar 'Blim, Blim, Blim, Blim, Blim' e a história continuar, é porque está certo. É parte de seu objetivo descobrir qual onomatopeia está associada a qual significado para descobrir a senha aleatória! Boa sorte.");
                 Random random = new Random();
                 string[] Answer = new string[5];
                 for (int i = 0; i < Answer.Length; i++)
@@ -245,6 +250,36 @@ while (true)
         Console.WriteLine("========================================================================================================================");
         TypeMessage("ATO 2 - EXPLORAÇÃO | 00:00 - 01:00", 100);
         Console.WriteLine("========================================================================================================================");
+        TypeMessage("Olhando ao redor, um andar escuro. Ao ir até o interruptor do andar e tentar ligar as luzes, nada acontece. Talvez a caixa de energia fonte da faculdade tenha sido desligada para salvar energia. Ao olhar com um pouco mais de atenção, você encontra um elevador, que você deduz que também não estará funcionando, já que as energias foram interrompidas. Há também algumas escadas, com uma faixa preta e amarela entre você e elas, devem estar interditadas. Você leva seu tempo para averiguar o andar inteiro. Essas parecem ser as únicas maneiras de sair, realmente. Seu novo objetivo é claro: Ligar a caixa de energia fonte e ir de elevador ou contornar as escadas e qualquer problema que resultou nelas serem interditadas e ir de escada.", 15);
+        TypeMessage("Mas, antes de tudo, a escolha é sua. Gostaria de ir para a rota do elevador, ou a rota da escada?", 15);
+        Console.WriteLine("1 = Elevador");
+        Console.WriteLine("2 = Escada");
+        while(Rota != 1 && Rota != 2)
+        {
+            Rota = int.Parse(Console.ReadLine());
+            if (Rota != 1 && Rota != 2)
+            {
+                TypeMessage("Digite 1 para a rota do Elevador ou 2 para a rota da Escada.", 15);
+            }
+            else if (Rota == 1)
+            {
+                RotaElevador();
+            }
+            else if (Rota == 2)
+            {
+                RotaEscada();
+            }
+        }
+    }
+    
+    void RotaElevador() // Continuar escrevendo aqui a rota do elevador
+    {
+
+    }
+
+    void RotaEscada() // Continuar escrevendo aqui a rota da escada
+    {
+
     }
 
     void VerifyIfDead(int energy) // Verifies if the player died
@@ -262,7 +297,7 @@ while (true)
         Console.WriteLine("Energia: " + Energy);
         if (SpecialMessage1)
         {
-            TypeMessage("Passa-se um bom tempo. Ninguém havia encontrado sinais do corpo, até que ele começa a feder. A sua morte começa a viralizar nas notícias. Pessoas choram, riem, e alguns não se importam o suficiente. A polícia não tem informações suficientes de como isso foi acontecer, por mais que veem uma janela aberta alguns bons metros acima do corpo. A morte é datada como suicídio. Derrota.", 15);
+            TypeMessage("Passa-se um dia. Onde os policiais locais estão fazendo sua vistoria diária em sua rua. Estava tudo indo bem. Até encontrarem você despejado no chão junto a uma poça de sangue. Não sabem exatamente como isso aconteceu, porém avisam a família imediatamente sobre o ocorrido após confirmar a morte. Derrota.", 15);
             Console.WriteLine("========================================================================================================================");
         }
         else
