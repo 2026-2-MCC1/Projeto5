@@ -42,6 +42,7 @@ while (true)
         PerguntaInicial = Console.ReadLine().ToUpper();
         if (PerguntaInicial == "DESISTO")
             GiveUp();
+
         else if (PerguntaInicial != "COMO SAIR DE UMA SALA TRANCADA")
         {
             TypeMessage("- Aproximadamente 67.000.000 resultados. Mas nenhum relevante o suficiente para te ajudar a sair. -", 15);
@@ -164,8 +165,11 @@ while (true)
                         Console.Write("Senha: ");
                         GivenAnswer = Console.ReadLine().ToUpper();
                         if (GivenAnswer == "DESISTO")
+                        {
                             GiveUp();
-                        
+                            continue;
+                        }
+                                        
                         
 
                         else if (GivenAnswer.Length != Answer.Length || !GivenAnswer.All(char.IsDigit))
@@ -248,6 +252,7 @@ while (true)
         if (energy <= 0)
         {
             YouLose();
+            Environment.Exit(0);
         }
 
     }
@@ -270,7 +275,7 @@ while (true)
     static void GiveUp()
     {
         TypeMessage("Muito trampo... você digita uma mensagem para o seu chefe falando que não poderá comparecer no próximo dia, e vai dormir em uma cadeira. Você acorda no próximo dia de manhã normalmente. Não a tempo de ir ao trabalho, mas a tempo de pedir para algum segurança do período matutino te tirar da sala e você poder voltar para a sua casa e comer algo normalmente. Derrota", 15);;
-        return;
+        Environment.Exit(0);
     }
     return;
 }
