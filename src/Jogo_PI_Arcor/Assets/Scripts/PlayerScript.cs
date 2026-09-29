@@ -19,8 +19,6 @@ public class PlayerScript : MonoBehaviour
     [SerializeField] float sensorRadius = 0.4f;
     [SerializeField] LayerMask groundMask;
 
-    private bool isRunning = false;
-
     [Header("Animation")]
     public Animator currentAnimator;
 
@@ -35,6 +33,7 @@ public class PlayerScript : MonoBehaviour
     private PlayerControls PlayerControls;
     private Vector2 CurrentMovement;
     private bool MovementPressed;
+    private bool isJumpPressed; // NOVO: Rastreia se o espaço está sendo segurado
 
     private void OnEnable()
     {
@@ -70,19 +69,13 @@ public class PlayerScript : MonoBehaviour
             MovementPressed = false;
         };
 
-        // Jump
-        PlayerControls.Player.Jump.performed += ctx =>
-        {
-            if (IsGrounded())
-            {
-                velocity.y = Mathf.Sqrt(
-                    jumpHeight * -2f * Physics.gravity.y
-                );
+        // --- NOVO SISTEMA DE INPUT PARA AUTO JUMP ---
+        // Quando o botão de pulo é segurado
+        PlayerControls.Player.Jump.performed += ctx => isJumpPressed = true;
 
-                if (currentAnimator != null)
-                    currentAnimator.SetTrigger("IsJumping");
-            }
-        };
+        // Quando o botão de pulo é solto
+        PlayerControls.Player.Jump.canceled += ctx => isJumpPressed = false;
+        // --------------------------------------------
     }
 
     private void Start()
@@ -106,6 +99,7 @@ public class PlayerScript : MonoBehaviour
     private void Update()
     {
         MoveCharacter();
+        HandleAutoJump(); // NOVO: Executa a checagem de pulo contínuo a cada frame
         HandleJumpAnimation();
     }
 
@@ -118,70 +112,48 @@ public class PlayerScript : MonoBehaviour
         myIsGrounded = false;
 
         float x = CurrentMovement.x;
-        float z = -CurrentMovement.y;
+        float z = CurrentMovement.y;
 
-        Vector3 moveInput =
-            new Vector3(x, 0f, z);
-
-        Vector3 moveDirection =
-            ConvertToCameraSpace(moveInput);
+        Vector3 moveInput = new Vector3(x, 0f, z);
+        Vector3 moveDirection = ConvertToCameraSpace(moveInput);
 
         if (currentAnimator != null)
         {
-            currentAnimator.SetBool(
-                "IsWalking",
-                moveInput.magnitude > 0.1f
-            );
+            currentAnimator.SetBool("IsWalking", moveInput.magnitude > 0.1f);
         }
 
-        // Ground gravity
+        // --- FIXED GRAVITY LOGIC ---
         if (IsGrounded() && velocity.y < 0f)
-            velocity.y = -2f;
-
-        // Gravity
-        velocity.y +=
-            Physics.gravity.y * Time.deltaTime;
+        {
+            velocity.y = -4f;
+        }
+        else
+        {
+            velocity.y += Physics.gravity.y * Time.deltaTime;
+        }
 
         // Movement speed
         float moveSpeedMultiplier = 1f;
+        Vector3 targetMove = moveDirection * speed * moveSpeedMultiplier;
 
-        Vector3 targetMove =
-            moveDirection *
-            speed *
-            moveSpeedMultiplier;
+        // Smooth horizontal movement
+        currentMove = Vector3.Lerp(currentMove, targetMove, Time.deltaTime * 3f);
 
-        // Smooth movement
-        currentMove = Vector3.Lerp(
-            currentMove,
-            targetMove,
-            Time.deltaTime * 3f
-        );
+        // --- FIXED MOVEMENT COMBINATION ---
+        Vector3 displacement = currentMove * Time.deltaTime;
+        displacement.y = velocity.y * Time.deltaTime;
 
-        // Combine horizontal movement + vertical velocity
-        Vector3 finalMove =
-            currentMove +
-            new Vector3(0f, velocity.y, 0f);
-
-        controller.Move(
-            finalMove * Time.deltaTime
-        );
+        controller.Move(displacement);
+        // ----------------------------
 
         // Animation vertical velocity
         if (currentAnimator != null)
         {
-            currentAnimator.SetFloat(
-                "VerticalVelocity",
-                controller.velocity.y
-            );
+            currentAnimator.SetFloat("VerticalVelocity", controller.velocity.y);
         }
 
         // Smooth animation movement speed
-        float rawVelocity =
-            new Vector3(
-                controller.velocity.x,
-                0f,
-                controller.velocity.z
-            ).magnitude;
+        float rawVelocity = new Vector3(controller.velocity.x, 0f, controller.velocity.z).magnitude;
 
         smoothVelocity = Mathf.SmoothDamp(
             smoothVelocity,
@@ -192,10 +164,7 @@ public class PlayerScript : MonoBehaviour
 
         if (currentAnimator != null)
         {
-            currentAnimator.SetFloat(
-                "Velocity",
-                smoothVelocity
-            );
+            currentAnimator.SetFloat("Velocity", smoothVelocity);
         }
 
         // Rotate toward movement direction
@@ -203,66 +172,22 @@ public class PlayerScript : MonoBehaviour
     }
 
     // =========================================================
-    // ROTATION
+    // JUMPING & AUTO JUMP
     // =========================================================
 
-    private void RotateCharacter(Vector3 moveDirection)
+    // NOVO: Método que roda no Update checando se deve pular automaticamente
+    private void HandleAutoJump()
     {
-        if (moveDirection.sqrMagnitude <= 0.01f)
-            return;
+        if (isJumpPressed && IsGrounded())
+        {
+            velocity.y = Mathf.Sqrt(jumpHeight * -2f * Physics.gravity.y);
 
-        float targetAngle =
-            Mathf.Atan2(
-                moveDirection.x,
-                moveDirection.z
-            ) * Mathf.Rad2Deg;
-
-        float smoothAngle =
-            Mathf.SmoothDampAngle(
-                transform.eulerAngles.y,
-                targetAngle,
-                ref rotationSmoothVelocity,
-                0.15f
-            );
-
-        transform.rotation =
-            Quaternion.Euler(
-                0f,
-                smoothAngle,
-                0f
-            );
+            if (currentAnimator != null)
+            {
+                currentAnimator.SetTrigger("IsJumping");
+            }
+        }
     }
-
-    // =========================================================
-    // CAMERA-RELATIVE MOVEMENT
-    // =========================================================
-
-    private Vector3 ConvertToCameraSpace(Vector3 input)
-    {
-        if (Camera.main == null)
-            return input;
-
-        Vector3 camForward =
-            Camera.main.transform.forward;
-
-        Vector3 camRight =
-            Camera.main.transform.right;
-
-        // Prevent camera tilt from affecting movement
-        camForward.y = 0f;
-        camRight.y = 0f;
-
-        camForward.Normalize();
-        camRight.Normalize();
-
-        return
-            camForward * input.z +
-            camRight * input.x;
-    }
-
-    // =========================================================
-    // JUMPING
-    // =========================================================
 
     private void HandleJumpAnimation()
     {
@@ -271,10 +196,7 @@ public class PlayerScript : MonoBehaviour
 
         if (!controller.isGrounded && !jumpAnimation)
         {
-            currentAnimator.SetTrigger(
-                "StartJumpFall"
-            );
-
+            currentAnimator.SetTrigger("StartJumpFall");
             jumpAnimation = true;
         }
         else if (controller.isGrounded)
@@ -293,5 +215,37 @@ public class PlayerScript : MonoBehaviour
                 sensorRadius,
                 groundMask
             );
+    }
+
+    // =========================================================
+    // ROTATION & CAMERA-RELATIVE MOVEMENT
+    // =========================================================
+
+    private void RotateCharacter(Vector3 moveDirection)
+    {
+        if (moveDirection.sqrMagnitude <= 0.01f)
+            return;
+
+        float targetAngle = Mathf.Atan2(moveDirection.x, moveDirection.z) * Mathf.Rad2Deg;
+        float smoothAngle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref rotationSmoothVelocity, 0.15f);
+
+        transform.rotation = Quaternion.Euler(0f, smoothAngle, 0f);
+    }
+
+    private Vector3 ConvertToCameraSpace(Vector3 input)
+    {
+        if (Camera.main == null)
+            return input;
+
+        Vector3 camForward = Camera.main.transform.forward;
+        Vector3 camRight = Camera.main.transform.right;
+
+        camForward.y = 0f;
+        camRight.y = 0f;
+
+        camForward.Normalize();
+        camRight.Normalize();
+
+        return camForward * input.z + camRight * input.x;
     }
 }
