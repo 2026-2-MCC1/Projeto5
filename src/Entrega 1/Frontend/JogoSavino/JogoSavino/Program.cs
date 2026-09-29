@@ -193,15 +193,15 @@ while (true)
                                 int numeroCerto = int.Parse(Answer[i].ToString());
                             if (numeroDigitado > numeroCerto)
                             {
-                                feedback[i] = "Tuk"; // Maior
+                                feedback[i] = "Blem"; // Maior
                             }
                             else if (numeroDigitado < numeroCerto)
                             {
-                                feedback[i] = "Tek"; // Menor
+                                feedback[i] = "Blam"; // Menor
                             }
                             else
                             {
-                                feedback[i] = "Tik"; // Certo
+                                feedback[i] = "Blim"; // Certo
                             }
                         }
 
@@ -212,7 +212,7 @@ while (true)
 
                 if (Energy > 0)
                 {
-                    TypeMessage("\nTik, Tik, Tik, Tik, Tik", 15);
+                    TypeMessage("\nBlim, Blim, Blim, Blim, Blim", 15);
                     Console.WriteLine("Energia: " + Energy);
                     TypeMessage("E você ouve a porta se destrancando por completo. Você está cansado, mas continua bem, sem nenhum tipo de ferimento. Imagina o que poderia acontecer se você tacasse aquele estojo nessa porta...", 15);
                     TypeMessage("Você finalmente abre a porta, e continua, determinado. Saiu da sala com sucesso, agora precisa sair da faculdade.", 15);
@@ -254,27 +254,30 @@ while (true)
         TypeMessage("Mas, antes de tudo, a escolha é sua. Gostaria de ir para a rota do elevador, ou a rota da escada?", 15);
         Console.WriteLine("1 = Elevador");
         Console.WriteLine("2 = Escada");
-        while(Rota != 1 && Rota != 2)
+        while(true)
         {
-            Rota = int.Parse(Console.ReadLine());
-            if (Rota != 1 && Rota != 2)
+            TypeMessage("Digite 1 para elevador ou 2 para Escada", 15);
+
+            if (!int.TryParse(Console.ReadLine(), out Rota) || (Rota != 1 && Rota != 2))
             {
-                TypeMessage("Digite 1 para a rota do Elevador ou 2 para a rota da Escada.", 15);
+                TypeMessage("Opção inválida. Digite 1 para a rota do elevador ou 2 para a rota da escada.", 15);
+                continue;
             }
-            else if (Rota == 1)
+
+            if (Rota == 1)
             {
                 RotaElevador();
+                continue;
             }
-            else if (Rota == 2)
-            {
-                RotaEscada();
-            }
+
+            RotaEscada();
+            break;
         }
     }
     
     void RotaElevador() // Continuar escrevendo aqui a rota do elevador
     {
-
+        TypeMessage("Você vai até os elevadores, as portas estão fechadas e você aperta o botão para chamar o elevador, obviamente não acontece nada, você aperta de novo, espera alguns segundos, e nada. Os elevadores obviamente não funcionam porque o prédio está sem energia. Tente pelas escadas.", 15);        
     }
 
     void RotaEscada() // Continuar escrevendo aqui a rota da escada
