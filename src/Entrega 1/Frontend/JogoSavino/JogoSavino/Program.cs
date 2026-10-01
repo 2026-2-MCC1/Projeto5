@@ -266,7 +266,7 @@ while (true)
 
             if (Rota == 1)
             {
-                RotaElevador();
+                TypeMessage("Você vai até os elevadores, as portas estão fechadas e você aperta o botão para chamar o elevador, obviamente não acontece nada, você aperta de novo, espera alguns segundos, e nada. Os elevadores obviamente não funcionam porque o prédio está sem energia. Tente pelas escadas.", 15);
                 continue;
             }
 
@@ -274,15 +274,12 @@ while (true)
             break;
         }
     }
-    
-    void RotaElevador() // Continuar escrevendo aqui a rota do elevador
-    {
-        TypeMessage("Você vai até os elevadores, as portas estão fechadas e você aperta o botão para chamar o elevador, obviamente não acontece nada, você aperta de novo, espera alguns segundos, e nada. Os elevadores obviamente não funcionam porque o prédio está sem energia. Tente pelas escadas.", 15);        
-    }
 
     void RotaEscada() // Continuar escrevendo aqui a rota da escada
     {
-
+        TypeMessage("Ao prestar melhor atenção nas escadas, você percebe que está atualmente no primeiro andar. Você sabe que a saída é no quarto andar. Porém, são exatamente as escadas que levam para cima que estão interditadas. Sua única opção é descer.", 15);
+        TypeMessage("Antes de descer, olha ao redor, e vê uma placa de diretório de andares logo ao seu lado. Observando o que há para baixo, somente o andar zero, o qual geralmente só funcionários podem ir. Ele serve para manutenção, ferramentas, e limpeza.", 15);
+        TypeMessage("...Não é como se mais alguém tivesse aqui para lhe impedir. Você prossegue, entrando no andar zero. A primeira coisa que lhe chama atenção é o forte cheiro de produto de limpeza que se encontra neste andar. Logo após,", 15);
     }
 
     void VerifyIfDead(int energy) // Verifies if the player died
