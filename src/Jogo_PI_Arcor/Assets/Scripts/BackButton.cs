@@ -5,6 +5,6 @@ public class BackToMenu : MonoBehaviour
 {
     public void Voltar()
     {
-        SceneManager.LoadScene("SceneUI");
+        SceneManager.LoadScene("MainMenu");
     }
 }

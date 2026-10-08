@@ -28,6 +28,6 @@ public class CreditsScroll : MonoBehaviour
     {
         yield return new WaitForSeconds(TimeBack);
 
-    SceneManager.LoadScene("SceneUI");
+    SceneManager.LoadScene("MainMenu");
    }
 }

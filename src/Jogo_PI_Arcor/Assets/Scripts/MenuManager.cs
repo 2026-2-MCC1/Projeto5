@@ -5,7 +5,7 @@ public class MenuManager : MonoBehaviour
 {
     public void Jogar()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Mundo1");
     }
 
     public void Créditos()
