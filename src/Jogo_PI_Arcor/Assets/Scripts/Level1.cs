@@ -9,7 +9,7 @@ public class Level1 : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        MoveDirection = new Vector3 (Speed, 0, 0);
+        MoveDirection = new Vector3 (0, 0, -Speed);
     }
 
     // Update is called once per frame
