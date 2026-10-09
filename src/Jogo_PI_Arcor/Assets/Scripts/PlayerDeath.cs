@@ -1,9 +1,9 @@
 
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerDeath : MonoBehaviour
 {
-    public GameOverManager gameOverManager;
 
     public float alturaDaQueda = -10f;
 
@@ -13,6 +13,7 @@ public class PlayerDeath : MonoBehaviour
     {
         if (transform.position.y < alturaDaQueda)
         {
+            
             Morrer();
         }
     }
@@ -21,6 +22,7 @@ public class PlayerDeath : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Obstacle"))
         {
+            Debug.LogError("Erro aqui!!!");
             Morrer();
         }
     }
@@ -39,6 +41,6 @@ public class PlayerDeath : MonoBehaviour
             return;
 
         morreu = true;
-        gameOverManager.GameOver();
+        SceneManager.LoadScene("GameOver");
     }
 }

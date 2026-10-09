@@ -8,24 +8,24 @@ public class GameOverManager : MonoBehaviour
 
     private bool gameOver = false;
 
+    private void Start()
+    {
+        Time.timeScale = 1f;
+    }
+
     public void GameOver()
     {
         if (gameOver)
             return;
 
         gameOver = true;
-
-        gameOverPanel.SetActive(true);
-        Time.timeScale = 0f;
     }
 
     public void TentarDeNovo()
     {
         Time.timeScale = 1f;
 
-        SceneManager.LoadScene(
-            SceneManager.GetActiveScene().buildIndex
-        );
+        SceneManager.LoadScene("Mundo1");
     }
 
     public void VoltarMenu()
