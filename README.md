@@ -104,7 +104,7 @@ Coloque código do prompt de comnando se for necessário
 ```
 
 ## 📋 Licença/License
-Utilize o link <https://chooser-beta.creativecommons.org/> para fazer uma licença CC BY 4.0.
+Arcorito Adventures © 2026 por Aurélio Felippo Cruz Pessina Santos, Gustavo De Souza Minelli, Gustavo Duarte Güering, Thomas Correa Janini está licenciado sob Creative Commons Attribution-NoDerivatives 4.0 International
 
 ## 🎓 Referências
 
