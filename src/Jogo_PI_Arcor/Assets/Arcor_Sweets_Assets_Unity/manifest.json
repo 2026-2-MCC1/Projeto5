@@ -1,0 +1,94 @@
+{
+  "package": "Arcor Sweets Assets",
+  "axis": "Y-up",
+  "units": "Unity units / meters",
+  "models": [
+    {
+      "name": "CandyTree_Gumdrops",
+      "file": "CandyTree_Gumdrops.obj",
+      "parts": 15
+    },
+    {
+      "name": "CandyTree_Lollipop",
+      "file": "CandyTree_Lollipop.obj",
+      "parts": 21
+    },
+    {
+      "name": "BonBon_Classic",
+      "file": "BonBon_Classic.obj",
+      "parts": 7
+    },
+    {
+      "name": "BonBon_Wrapped",
+      "file": "BonBon_Wrapped.obj",
+      "parts": 6
+    },
+    {
+      "name": "Lollipop_Swirl",
+      "file": "Lollipop_Swirl.obj",
+      "parts": 15
+    },
+    {
+      "name": "Gummy_Bear",
+      "file": "Gummy_Bear.obj",
+      "parts": 12
+    },
+    {
+      "name": "Chocolate_Bar_Obstacle",
+      "file": "Chocolate_Bar_Obstacle.obj",
+      "parts": 17
+    },
+    {
+      "name": "Wafer_Block_Obstacle",
+      "file": "Wafer_Block_Obstacle.obj",
+      "parts": 8
+    },
+    {
+      "name": "Cookie_Obstacle",
+      "file": "Cookie_Obstacle.obj",
+      "parts": 10
+    },
+    {
+      "name": "Candy_Cane_Barrier",
+      "file": "Candy_Cane_Barrier.obj",
+      "parts": 12
+    }
+  ],
+  "materials": [
+    "ChocolateDark",
+    "ChocolateMilk",
+    "ChocolateLight",
+    "ChocolateCream",
+    "WaferGold",
+    "WaferLight",
+    "Biscuit",
+    "Cookie",
+    "Chip",
+    "CandyRed",
+    "CandyPink",
+    "CandyOrange",
+    "CandyYellow",
+    "CandyBlue",
+    "CandyCyan",
+    "CandyGreen",
+    "CandyLime",
+    "CandyPurple",
+    "CandyCream",
+    "WrapperBlue",
+    "WrapperRed",
+    "WrapperGold",
+    "WrapperSilver",
+    "TreeBark",
+    "LeafMint",
+    "LeafDark",
+    "LeafLime",
+    "GummyRed",
+    "GummyPink",
+    "GummyOrange",
+    "GummyGreen",
+    "GummyYellow",
+    "GummyBlue",
+    "White",
+    "Black"
+  ]
+}

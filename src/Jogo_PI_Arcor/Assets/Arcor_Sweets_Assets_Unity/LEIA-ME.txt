@@ -1,0 +1,46 @@
+ARCOR SWEETS — PACOTE DE ASSETS 3D PARA UNITY
+================================================
+
+Este pacote contém MALHAS 3D OBJ reais (não imagens), com eixo Y para cima e origem próxima à base de cada objeto.
+
+MODELOS INCLUÍDOS
+- CandyTree_Gumdrops.obj       Árvore doce com copa de gomas e frutinhas coloridas.
+- CandyTree_Lollipop.obj       Árvore temática formada por pirulitos.
+- BonBon_Classic.obj           Bombom de chocolate com base dourada e cobertura.
+- BonBon_Wrapped.obj           Bombom embalado com pontas plissadas e fitas.
+- Lollipop_Swirl.obj           Pirulito redondo com setores rosa e creme.
+- Gummy_Bear.obj               Ursinho de goma com corpo, braços, pernas e rosto.
+- Chocolate_Bar_Obstacle.obj   Barra de chocolate segmentada para atravessar a pista.
+- Wafer_Block_Obstacle.obj    Bloco de wafer com grade em relevo e ponta banhada.
+- Cookie_Obstacle.obj          Biscoito redondo com gotas de chocolate.
+- Candy_Cane_Barrier.obj       Barreira listrada de doces.
+
+MATERIAIS
+- ArcorSweets.mtl: biblioteca de materiais para importadores OBJ que leem MTL.
+- Unity_Materials/: materiais individuais do Unity Built-in Standard com cores configuradas.
+  Se os materiais MTL não forem importados automaticamente, aplique os materiais Unity_Materials manualmente aos submeshes correspondentes.
+
+IMPORTAÇÃO NO UNITY
+1. Extraia o ZIP.
+2. Copie os arquivos .obj, ArcorSweets.mtl e a pasta Unity_Materials para a mesma pasta do projeto, dentro de Assets/ArcorSweets/.
+3. Aguarde a importação. Se o Unity não associar os materiais, abra cada modelo no Inspector e confira Materials; também é possível arrastar os .mat para os slots dos materiais/submeshes.
+4. Arraste o modelo da janela Project para a Scene.
+5. Para obstáculos, adicione Box Collider (ou Mesh Collider quando necessário). Para objetos estáticos do cenário, prefira colliders simples.
+
+ESCALA APROXIMADA (unidades Unity)
+- CandyTree_Gumdrops: 3,8 de altura.
+- CandyTree_Lollipop: 3,5 de altura.
+- BonBon_Classic: cerca de 1,1 de diâmetro.
+- BonBon_Wrapped: cerca de 2,8 de largura.
+- Lollipop_Swirl: cerca de 1,5 de altura.
+- Gummy_Bear: cerca de 1,9 de altura.
+- Chocolate_Bar_Obstacle: 3,2 x 0,65 x 1,65.
+- Wafer_Block_Obstacle: 2,7 x 0,85 x 1,15.
+- Cookie_Obstacle: cerca de 1,5 de diâmetro.
+- Candy_Cane_Barrier: cerca de 2,5 de largura x 1,6 de altura.
+
+OBSERVAÇÕES
+- Os modelos são low-poly estilizados e foram pensados para combinar com o cenário de corrida da Arcor.
+- As escalas podem ser ajustadas no Transform do Unity.
+- Os arquivos .obj não levam animação nem colisores; estes são configurados dentro do Unity.
+- As cores MTL são uma referência universal; os .mat são materiais Built-in Standard. Em projetos URP/HDRP, pode ser necessário trocar o shader para URP/Lit ou HDRP/Lit.
