@@ -53,11 +53,14 @@
     <Compile Include="Assets\Scripts\TriggerScript.cs" />
     <Compile Include="Assets\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\Level1.cs" />
+    <Compile Include="Assets\Scripts\DialogueSequence.cs" />
+    <Compile Include="Assets\Scripts\CharacterData.cs" />
     <Compile Include="Assets\Scripts\PlayerScript.cs" />
     <Compile Include="Assets\InputSystem_Actions.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\PlayerDeath.cs" />
     <Compile Include="Assets\Scripts\MenuManager.cs" />
+    <Compile Include="Assets\Scripts\DialogueManager.cs" />
     <Compile Include="Assets\Scripts\CreditsScroll.cs" />
     <Compile Include="Assets\Scripts\BackButton.cs" />
   </ItemGroup>

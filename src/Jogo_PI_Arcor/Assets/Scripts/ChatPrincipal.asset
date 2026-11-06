@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a23413f5e1b7574d9f1c0286ead0a9e, type: 3}
+  m_Name: ChatPrincipal
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueSequence
+  lines:
+  - character: {fileID: 11400000, guid: 673b5c7d8bbf37a4291717fbe1bbb0ab, type: 2}
+    text: "\xC9 mais um dia como qualquer outro. O sol nasce mais uma vez, pessoas
+      fazem suas rotinas di\xE1rias. N\xE3o parece ter um problema no dia de hoje.
+      Realmente n\xE3o tem, mas algo preocupa Tortuguita, o mascote do principal
+      produto da Arcor.\n"
+  - character: {fileID: 11400000, guid: 673b5c7d8bbf37a4291717fbe1bbb0ab, type: 2}
+    text: "Tortuguita percebeu que seus amigos, sendo eles os outros produtos da
+      Arcor, afinal, todos da Arcor s\xE3o amigos, n\xE3o est\xE3o acompanhando o
+      crescimento da tartaruga. Determinado, a Tortuguita vai atr\xE1s do principal
+      mascote da Arcor, o Arcorito, para inform\xE1-lo da m\xE1 not\xEDcia... "
+  - character: {fileID: 11400000, guid: c5495846c83c45b4b8cccdfee45271b9, type: 2}
+    text: Arcorito! Arcorito!
+  - character: {fileID: 11400000, guid: ccfbcd4a7229bad4cb710cc74f101ca5, type: 2}
+    text: Diga, minhs amiga Tortuguita.
+  - character: {fileID: 11400000, guid: c5495846c83c45b4b8cccdfee45271b9, type: 2}
+    text: "Nossos amigos est\xE3o em apuros! N\xE3o est\xE3o acompanhando o meu crescimento!
+      Poosh, 7 Belo, Bon O Bon est\xE3o ficando para tr\xE1s. Enquanto outros como
+      Mogul, Flics, e Topline, as pessoas nem sabem que existem! Voc\xEA precisa
+      ajud\xE1-los! "
+  - character: {fileID: 11400000, guid: ccfbcd4a7229bad4cb710cc74f101ca5, type: 2}
+    text: "Isso \xE9 um problema, mas como eu os ajudaria? N\xE3o \xE9 como se eu
+      tivesse controle de tudo."
+  - character: {fileID: 11400000, guid: c5495846c83c45b4b8cccdfee45271b9, type: 2}
+    text: "Em nosso mundo da Arcor, Arcoria, voc\xEA tem! Se voc\xEA pegar alguns
+      exemplares de nossos outros produtos, voc\xEA poder\xE1 espalh\xE1-los pelo
+      mundo e deix\xE1-los mais conhecidos!"
+  - character: {fileID: 11400000, guid: c5495846c83c45b4b8cccdfee45271b9, type: 2}
+    text: "Voc\xEA s\xF3 precisa passar por nosso mundo em busca dos exemplares espalhados!
+      Eu confio em voc\xEA, afinal, voc\xEA \xE9 o \xFAnico que pode ajudar! Mas
+      cuidado, a Plutonita parece estranha..."
+  - character: {fileID: 11400000, guid: ccfbcd4a7229bad4cb710cc74f101ca5, type: 2}
+    text: "Qu\xEA...?"
