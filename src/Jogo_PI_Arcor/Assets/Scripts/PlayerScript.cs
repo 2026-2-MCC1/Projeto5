@@ -21,12 +21,13 @@ public class PlayerScript : MonoBehaviour
 
     [Header("Animation")]
     public Animator currentAnimator;
+    [SerializeField] bool autoRun = true;
 
     private float smoothVelocity = 0f;
     private float velocitySmoothTime = 0.25f;
     private float velocitySmoothSpeed = 0f;
 
-    private bool jumpAnimation = false;
+    private bool jumpAnimation = true;
     private bool myIsGrounded = false;
 
     [Header("Input")]
@@ -119,7 +120,7 @@ public class PlayerScript : MonoBehaviour
 
         if (currentAnimator != null)
         {
-            currentAnimator.SetBool("IsWalking", moveInput.magnitude > 0.1f);
+            currentAnimator.SetBool("IsWalking", autoRun || moveInput.magnitude > 0.1f);
         }
 
         // --- FIXED GRAVITY LOGIC ---
@@ -193,6 +194,8 @@ public class PlayerScript : MonoBehaviour
     {
         if (currentAnimator == null)
             return;
+
+        currentAnimator.SetBool("IsGrounded", controller.isGrounded);
 
         if (!controller.isGrounded && !jumpAnimation)
         {
