@@ -1,22 +1,22 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/respin/6000.3.6f1-732c1ec89f18' branch; Version is '6000.3.6f1 (bbb010bdb8a3) revision 12300304'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26200) Core' Language: 'pt' Physical Memory: 16252 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ADMIN LOCAL" at "2026-11-08T09:44:33.1619142Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ADMIN LOCAL" at "2026-11-08T15:11:13.4329522Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-11-08T09:44:33Z
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 2692, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+Date: 2026-11-08T15:11:13Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 16916, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.3+d7ffd15
-  Session Id:              a36f15b01b33497881606d39736f5c0f
-  Correlation Id:          e1097eda408b5b3ad8c0d9c8cd009c5b
-  External correlation Id: 9134086531194717863
+  Session Id:              4e572fdbafc845efaa780d3bad675e5f
+  Correlation Id:          e9a5c18822549ebd89b739496ee4bc63
+  External correlation Id: 5228942670635929782
   Machine Id:              5qJGzeGYVyMhhhwq1OV/Ppij6fc=
 [Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-ADMIN LOCAL" (connect: 0.00s, validation: 0.00s, handshake: 0.04s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ADMIN LOCAL-notifications" at "2026-11-08T09:44:33.2113045Z"
-[Licensing::Module] Licensing Background thread has ended after 0.05s
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ADMIN LOCAL-notifications" at "2026-11-08T15:11:13.4737534Z"
+[Licensing::Module] Licensing Background thread has ended after 0.04s
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.6f1\Editor\Unity.exe
@@ -30,7 +30,7 @@ C:/Users/ADMIN LOCAL/Documents/GitHub/Projeto5/src/Jogo_PI_Arcor
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-57964
+55772
 -licensingIpc
 LicenseClient-ADMIN LOCAL
 -job-worker-count
@@ -78,12 +78,12 @@ C:/Users/ADMIN LOCAL/Documents/GitHub/Projeto5/src/Jogo_PI_Arcor
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [13220]  Target information:
+Player connection [8244]  Target information:
 
-Player connection [13220]  * "[IP] 192.168.15.159 [Port] 0 [Flags] 2 [Guid] 4006237559 [EditorId] 4006237559 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-F0H82DF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [8244]  * "[IP] 192.168.15.159 [Port] 0 [Flags] 2 [Guid] 3610009390 [EditorId] 3610009390 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-F0H82DF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [13220] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [13220] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8244] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8244] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -95,7 +95,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 9.86 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 6.19 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.6f1 (bbb010bdb8a3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.6f1/Editor/Data/Resources/UnitySubsystems
@@ -111,44 +111,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56680
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56556
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003429 seconds.
-- Loaded All Assemblies, in  0.549 seconds
+Registered in 0.002713 seconds.
+- Loaded All Assemblies, in  0.410 seconds
 Native extension for WindowsStandalone target not found
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.675 seconds
-Domain Reload Profiling: 1218ms
-	BeginReloadAssembly (150ms)
+- Finished resetting the current domain, in  0.423 seconds
+Domain Reload Profiling: 828ms
+	BeginReloadAssembly (131ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (43ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (67ms)
-	LoadAllAssembliesAndSetupDomain (267ms)
-		LoadAssemblies (144ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (173ms)
+		LoadAssemblies (126ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (262ms)
-			TypeCache.Refresh (259ms)
-				TypeCache.ScanAssembly (231ms)
+		AnalyzeDomain (169ms)
+			TypeCache.Refresh (168ms)
+				TypeCache.ScanAssembly (153ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (676ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (423ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (593ms)
+		SetupLoadedEditorAssemblies (388ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (82ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (133ms)
-			ProcessInitializeOnLoadAttributes (248ms)
-			ProcessInitializeOnLoadMethodAttributes (123ms)
+			InitializePlatformSupportModulesInManaged (48ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (169ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -171,11 +171,11 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  1.369 seconds
+- Loaded All Assemblies, in  0.837 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 3.16 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.03 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Package Manager log level set to [2]
@@ -187,184 +187,44 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.321 seconds
-Domain Reload Profiling: 2673ms
-	BeginReloadAssembly (317ms)
+- Finished resetting the current domain, in  0.782 seconds
+Domain Reload Profiling: 1610ms
+	BeginReloadAssembly (190ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (67ms)
-	RebuildCommonClasses (53ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (64ms)
-	LoadAllAssembliesAndSetupDomain (901ms)
-		LoadAssemblies (658ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (544ms)
+		LoadAssemblies (387ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (411ms)
-			TypeCache.Refresh (287ms)
-				TypeCache.ScanAssembly (265ms)
-			BuildScriptInfoCaches (99ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (1322ms)
+		AnalyzeDomain (260ms)
+			TypeCache.Refresh (174ms)
+				TypeCache.ScanAssembly (159ms)
+			BuildScriptInfoCaches (71ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (782ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (978ms)
+		SetupLoadedEditorAssemblies (589ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (11ms)
-			BeforeProcessingInitializeOnLoad (295ms)
-			ProcessInitializeOnLoadAttributes (546ms)
-			ProcessInitializeOnLoadMethodAttributes (108ms)
-			AfterProcessingInitializeOnLoad (15ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (159ms)
+			ProcessInitializeOnLoadAttributes (348ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 2.45 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 2.04 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6851 unused Assets / (5.1 MB). Loaded Objects now: 7659.
-Memory consumption went from 147.7 MB to 142.6 MB.
-Total: 18.249800 ms (FindLiveObjects: 1.465700 ms CreateObjectMapping: 1.696000 ms MarkObjects: 10.843200 ms  DeleteObjects: 4.243000 ms)
+Unloading 6851 unused Assets / (4.9 MB). Loaded Objects now: 7660.
+Memory consumption went from 148.0 MB to 143.0 MB.
+Total: 10.083800 ms (FindLiveObjects: 0.657300 ms CreateObjectMapping: 0.818300 ms MarkObjects: 6.162200 ms  DeleteObjects: 2.445100 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 52770.366929 seconds.
-  path: Assets/Scripts/PauseMenu.cs
-  artifactKey: Guid(b8677b2b7e4693c449943589596aa026) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scripts/PauseMenu.cs using Guid(b8677b2b7e4693c449943589596aa026) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7814a97a44e6fd4d934daebcc486cb56') in 0.124691 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Arcor_Sweets_Assets_Unity/Materials/CandyTree_Gumdrops-LeafDark.mat
-  artifactKey: Guid(050428903c3d9c24fa2d319c8e6c8ece) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Arcor_Sweets_Assets_Unity/Materials/CandyTree_Gumdrops-LeafDark.mat using Guid(050428903c3d9c24fa2d319c8e6c8ece) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '289a888daa208980c99789800e09e486') in 0.0505315 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Scripts/PlayerScript.cs
-  artifactKey: Guid(5258f6324cfe5e44a8ce5948dacb4dae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scripts/PlayerScript.cs using Guid(5258f6324cfe5e44a8ce5948dacb4dae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '98d48ba61e7245a2356c0d9926756df9') in 0.0130374 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Arcor_Sweets_Assets_Unity/Materials/CandyTree_Gumdrops-CandyRed.mat
-  artifactKey: Guid(239873cc29000cb4c95df201aa269a59) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Arcor_Sweets_Assets_Unity/Materials/CandyTree_Gumdrops-CandyRed.mat using Guid(239873cc29000cb4c95df201aa269a59) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '191cc07c1ee81e10cbb34ed1f879d7e8') in 0.0152354 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Images/TortuguitaNoBG.png
-  artifactKey: Guid(e37baa289851abc43947b0d2d61c15cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Images/TortuguitaNoBG.png using Guid(e37baa289851abc43947b0d2d61c15cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd763645e055791aa9d984c629372cad9') in 0.0775621 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Scripts/Narrador.asset
-  artifactKey: Guid(673b5c7d8bbf37a4291717fbe1bbb0ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scripts/Narrador.asset using Guid(673b5c7d8bbf37a4291717fbe1bbb0ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9b826bcb99ef6ec9dcd162a8e6db4899') in 0.0332391 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Arcor_Sweets_Assets_Unity/CandyTree_Gumdrops.obj
-  artifactKey: Guid(3367ca06d93ca4ccffbe8725d9ea9851) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Arcor_Sweets_Assets_Unity/CandyTree_Gumdrops.obj using Guid(3367ca06d93ca4ccffbe8725d9ea9851) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '89fe43875e06519d2c58b4f114790e9a') in 0.0634937 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Arcor_Sweets_Assets_Unity/Materials/CandyTree_Lollipop-CandyRed.mat
-  artifactKey: Guid(f3feb886e58deb0448e5f135ef7e5f9e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Arcor_Sweets_Assets_Unity/Materials/CandyTree_Lollipop-CandyRed.mat using Guid(f3feb886e58deb0448e5f135ef7e5f9e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '051001f0b8445a6092427db067fcaf32') in 0.0175223 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Arcor_Sweets_Assets_Unity/Materials/CandyTree_Lollipop-CandyBlue.mat
-  artifactKey: Guid(94b2ca54170018647ad441ae4c3fe965) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Arcor_Sweets_Assets_Unity/Materials/CandyTree_Lollipop-CandyBlue.mat using Guid(94b2ca54170018647ad441ae4c3fe965) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '93e63879651c84d143a045af3e00fe0d') in 0.0204794 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Prefabs/Level.prefab
-  artifactKey: Guid(bb7b12af66fc67c43b43ff324f41c8d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Prefabs/Level.prefab using Guid(bb7b12af66fc67c43b43ff324f41c8d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5791b7d88725896f65d8f8793ef85e0a') in 0.0261217 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 64
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/LowPoly_Tree_Pine.obj
-  artifactKey: Guid(1ab055a81df8ca04ab9677e503c5e83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPoly_Tree_Pine.obj using Guid(1ab055a81df8ca04ab9677e503c5e83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf074a5f9b7cb2d9f1d611c6187881ad') in 6.707196 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMPro.cginc
-  artifactKey: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6b954f1011e7ef0f2764a34b44b5276c') in 0.0152618 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Arcor_Sweets_Assets_Unity/Unity_Materials/WrapperGold.mat
-  artifactKey: Guid(3ad24cb6208db93886299f6a839d99a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Arcor_Sweets_Assets_Unity/Unity_Materials/WrapperGold.mat using Guid(3ad24cb6208db93886299f6a839d99a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4be61abd8e550a4f935e7e19e5683b18') in 0.019496 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Scripts/Arcorito.asset
-  artifactKey: Guid(ccfbcd4a7229bad4cb710cc74f101ca5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scripts/Arcorito.asset using Guid(ccfbcd4a7229bad4cb710cc74f101ca5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0de7f1d5e0fadc4e17cc7f633b3e2833') in 0.0163804 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Arcor_Sweets_Assets_Unity/Materials/Lollipop_Swirl-CandyYellow.mat
-  artifactKey: Guid(12708e0d8984c214d97041097ddf8eac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Arcor_Sweets_Assets_Unity/Materials/Lollipop_Swirl-CandyYellow.mat using Guid(12708e0d8984c214d97041097ddf8eac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '82d654ddce189bacb25419f216194082') in 0.0167603 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Arcor_Sweets_Assets_Unity/Unity_Materials/Chip.mat
-  artifactKey: Guid(fcf8d4076e61e046ada4189d9e65641b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Arcor_Sweets_Assets_Unity/Unity_Materials/Chip.mat using Guid(fcf8d4076e61e046ada4189d9e65641b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f4165b7f438169d088d79b7bd5cd202a') in 0.0137865 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Arcor_Sweets_Assets_Unity/Lollipop_Swirl.obj
-  artifactKey: Guid(0e69ccffa78b640e0c09c6c0255d7efc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Arcor_Sweets_Assets_Unity/Lollipop_Swirl.obj using Guid(0e69ccffa78b640e0c09c6c0255d7efc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '05340dcf1b1415cf06649d50c904940d') in 0.0228078 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
