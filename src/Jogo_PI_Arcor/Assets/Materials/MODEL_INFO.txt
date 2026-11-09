@@ -1,0 +1,5 @@
+Vertices: 182
+Polygons: 201
+Approx. triangulated faces: 346
+Meshes: 4
+Textures: 2 PNG albedo maps
