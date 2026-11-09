@@ -290,6 +290,7 @@ GameObject:
   - component: {fileID: 22414891}
   - component: {fileID: 22414890}
   - component: {fileID: 22414889}
+  - component: {fileID: 22414892}
   m_Layer: 0
   m_Name: Coin (30)
   m_TagString: Untagged
@@ -392,6 +393,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 22414887}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &22414892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 22414887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1 &27498116 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 36a75e11c9f6f4032a59f1c5e5203bc2, type: 3}
@@ -435,6 +450,7 @@ GameObject:
   - component: {fileID: 28483119}
   - component: {fileID: 28483118}
   - component: {fileID: 28483117}
+  - component: {fileID: 28483120}
   m_Layer: 0
   m_Name: Coin (24)
   m_TagString: Untagged
@@ -537,6 +553,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 28483115}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &28483120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28483115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!4 &31392197 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4b4fe8307923e46acb10ba551fa0995d, type: 3}
@@ -864,6 +894,7 @@ GameObject:
   - component: {fileID: 58587640}
   - component: {fileID: 58587639}
   - component: {fileID: 58587638}
+  - component: {fileID: 58587641}
   m_Layer: 0
   m_Name: Coin (57)
   m_TagString: Untagged
@@ -966,6 +997,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 58587636}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &58587641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 58587636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1 &59455221
 GameObject:
   m_ObjectHideFlags: 0
@@ -978,6 +1023,7 @@ GameObject:
   - component: {fileID: 59455225}
   - component: {fileID: 59455224}
   - component: {fileID: 59455223}
+  - component: {fileID: 59455226}
   m_Layer: 0
   m_Name: Coin (34)
   m_TagString: Untagged
@@ -994,7 +1040,7 @@ Transform:
   m_GameObject: {fileID: 59455221}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0.7071068, w: 0}
-  m_LocalPosition: {x: -3.29, y: -0, z: 126.46}
+  m_LocalPosition: {x: -3.29, y: 0, z: 126.46}
   m_LocalScale: {x: 0.5, y: 0.10000001, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1080,6 +1126,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 59455221}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &59455226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59455221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1 &74262582 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6b7381b65278648049dcc0ee075a7eb1, type: 3}
@@ -1341,6 +1401,7 @@ GameObject:
   - component: {fileID: 77571319}
   - component: {fileID: 77571318}
   - component: {fileID: 77571317}
+  - component: {fileID: 77571320}
   m_Layer: 0
   m_Name: Coin (13)
   m_TagString: Untagged
@@ -1443,6 +1504,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 77571315}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &77571320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 77571315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!4 &79620741 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 83e8d2542718a2e49a73d71c3a5fc685, type: 3}
@@ -1713,6 +1788,7 @@ GameObject:
   - component: {fileID: 114327965}
   - component: {fileID: 114327964}
   - component: {fileID: 114327963}
+  - component: {fileID: 114327966}
   m_Layer: 0
   m_Name: Coin (23)
   m_TagString: Untagged
@@ -1815,6 +1891,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 114327961}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &114327966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114327961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1 &115564011 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 36a75e11c9f6f4032a59f1c5e5203bc2, type: 3}
@@ -2243,6 +2333,7 @@ GameObject:
   - component: {fileID: 173640180}
   - component: {fileID: 173640179}
   - component: {fileID: 173640178}
+  - component: {fileID: 173640181}
   m_Layer: 0
   m_Name: Coin (32)
   m_TagString: Untagged
@@ -2345,6 +2436,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 173640176}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &173640181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173640176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1 &174661588
 GameObject:
   m_ObjectHideFlags: 0
@@ -2357,6 +2462,7 @@ GameObject:
   - component: {fileID: 174661592}
   - component: {fileID: 174661591}
   - component: {fileID: 174661590}
+  - component: {fileID: 174661593}
   m_Layer: 0
   m_Name: Coin (22)
   m_TagString: Untagged
@@ -2459,6 +2565,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 174661588}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &174661593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 174661588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!4 &176819384 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: d4ad967689295ba4eaf8baeaebc8721b, type: 3}
@@ -2787,6 +2907,7 @@ GameObject:
   - component: {fileID: 204951133}
   - component: {fileID: 204951132}
   - component: {fileID: 204951131}
+  - component: {fileID: 204951134}
   m_Layer: 0
   m_Name: Coin (48)
   m_TagString: Untagged
@@ -2889,6 +3010,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 204951129}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &204951134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204951129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1001 &208851733
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3778,6 +3913,7 @@ GameObject:
   - component: {fileID: 258451121}
   - component: {fileID: 258451120}
   - component: {fileID: 258451119}
+  - component: {fileID: 258451122}
   m_Layer: 0
   m_Name: Coin (39)
   m_TagString: Untagged
@@ -3880,6 +4016,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 258451117}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &258451122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 258451117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!4 &258946419 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4b4fe8307923e46acb10ba551fa0995d, type: 3}
@@ -4031,6 +4181,7 @@ GameObject:
   - component: {fileID: 274709751}
   - component: {fileID: 274709750}
   - component: {fileID: 274709749}
+  - component: {fileID: 274709753}
   m_Layer: 0
   m_Name: Coin
   m_TagString: Untagged
@@ -4133,6 +4284,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1739554473}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &274709753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 274709748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1 &285340606
 GameObject:
   m_ObjectHideFlags: 0
@@ -4916,6 +5081,7 @@ GameObject:
   - component: {fileID: 342755837}
   - component: {fileID: 342755836}
   - component: {fileID: 342755835}
+  - component: {fileID: 342755838}
   m_Layer: 0
   m_Name: Coin (37)
   m_TagString: Untagged
@@ -5018,6 +5184,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 342755833}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &342755838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 342755833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1001 &344071607
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5187,6 +5367,7 @@ GameObject:
   - component: {fileID: 345549253}
   - component: {fileID: 345549252}
   - component: {fileID: 345549251}
+  - component: {fileID: 345549254}
   m_Layer: 0
   m_Name: Coin (16)
   m_TagString: Untagged
@@ -5289,6 +5470,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 345549249}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &345549254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 345549249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1001 &355920823
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5618,6 +5813,7 @@ GameObject:
   - component: {fileID: 363447802}
   - component: {fileID: 363447801}
   - component: {fileID: 363447800}
+  - component: {fileID: 363447803}
   m_Layer: 0
   m_Name: Coin (8)
   m_TagString: Untagged
@@ -5720,6 +5916,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 363447798}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &363447803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 363447798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1 &365451946
 GameObject:
   m_ObjectHideFlags: 0
@@ -6171,6 +6381,7 @@ GameObject:
   - component: {fileID: 420343320}
   - component: {fileID: 420343319}
   - component: {fileID: 420343318}
+  - component: {fileID: 420343321}
   m_Layer: 0
   m_Name: Coin (10)
   m_TagString: Untagged
@@ -6273,6 +6484,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 420343316}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &420343321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 420343316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1 &433950656
 GameObject:
   m_ObjectHideFlags: 0
@@ -6376,6 +6601,7 @@ GameObject:
   - component: {fileID: 438718866}
   - component: {fileID: 438718865}
   - component: {fileID: 438718864}
+  - component: {fileID: 438718867}
   m_Layer: 0
   m_Name: Coin (59)
   m_TagString: Untagged
@@ -6478,6 +6704,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 438718862}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &438718867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 438718862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1 &439451331
 GameObject:
   m_ObjectHideFlags: 0
@@ -7106,6 +7346,7 @@ GameObject:
   - component: {fileID: 496658889}
   - component: {fileID: 496658888}
   - component: {fileID: 496658887}
+  - component: {fileID: 496658890}
   m_Layer: 0
   m_Name: Coin (16)
   m_TagString: Untagged
@@ -7208,6 +7449,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 496658885}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &496658890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 496658885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!4 &506551294 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4b4fe8307923e46acb10ba551fa0995d, type: 3}
@@ -7337,6 +7592,7 @@ GameObject:
   - component: {fileID: 520361036}
   - component: {fileID: 520361035}
   - component: {fileID: 520361034}
+  - component: {fileID: 520361037}
   m_Layer: 0
   m_Name: Coin (18)
   m_TagString: Untagged
@@ -7439,6 +7695,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 520361032}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &520361037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 520361032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1 &525291958
 GameObject:
   m_ObjectHideFlags: 0
@@ -7905,6 +8175,7 @@ GameObject:
   - component: {fileID: 552140942}
   - component: {fileID: 552140941}
   - component: {fileID: 552140940}
+  - component: {fileID: 552140943}
   m_Layer: 0
   m_Name: Coin (14)
   m_TagString: Untagged
@@ -8007,6 +8278,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 552140938}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &552140943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 552140938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1001 &552704165
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8400,6 +8685,7 @@ GameObject:
   - component: {fileID: 566030554}
   - component: {fileID: 566030553}
   - component: {fileID: 566030552}
+  - component: {fileID: 566030555}
   m_Layer: 0
   m_Name: Coin (26)
   m_TagString: Untagged
@@ -8502,6 +8788,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 566030550}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &566030555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 566030550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1 &569147842
 GameObject:
   m_ObjectHideFlags: 0
@@ -8626,6 +8926,7 @@ GameObject:
   - component: {fileID: 574430759}
   - component: {fileID: 574430758}
   - component: {fileID: 574430757}
+  - component: {fileID: 574430761}
   m_Layer: 0
   m_Name: Coin (3)
   m_TagString: Untagged
@@ -8728,6 +9029,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1739554473}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &574430761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 574430756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1001 &591669887
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8971,6 +9286,7 @@ GameObject:
   - component: {fileID: 627913126}
   - component: {fileID: 627913125}
   - component: {fileID: 627913124}
+  - component: {fileID: 627913127}
   m_Layer: 0
   m_Name: Coin (1)
   m_TagString: Untagged
@@ -9073,6 +9389,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 627913122}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &627913127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 627913122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1 &628913337
 GameObject:
   m_ObjectHideFlags: 0
@@ -10055,6 +10385,7 @@ GameObject:
   - component: {fileID: 700644402}
   - component: {fileID: 700644401}
   - component: {fileID: 700644400}
+  - component: {fileID: 700644403}
   m_Layer: 0
   m_Name: Coin (08)
   m_TagString: Untagged
@@ -10157,6 +10488,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 700644398}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &700644403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 700644398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1 &701702065 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6b7381b65278648049dcc0ee075a7eb1, type: 3}
@@ -10882,6 +11227,7 @@ GameObject:
   - component: {fileID: 756656330}
   - component: {fileID: 756656329}
   - component: {fileID: 756656328}
+  - component: {fileID: 756656331}
   m_Layer: 0
   m_Name: Coin (31)
   m_TagString: Untagged
@@ -10984,6 +11330,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 756656326}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &756656331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 756656326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1 &759330288
 GameObject:
   m_ObjectHideFlags: 0
@@ -11615,6 +11975,52 @@ Transform:
   - {fileID: 1392068739}
   m_Father: {fileID: 693621333}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &808795652
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 808795653}
+  - component: {fileID: 808795654}
+  m_Layer: 0
+  m_Name: Coin (64)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &808795653
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 808795652}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -86.9568, y: -88.12572, z: 104.27744}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1739554473}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &808795654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 808795652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1 &811909438
 GameObject:
   m_ObjectHideFlags: 0
@@ -11627,6 +12033,7 @@ GameObject:
   - component: {fileID: 811909442}
   - component: {fileID: 811909441}
   - component: {fileID: 811909440}
+  - component: {fileID: 811909443}
   m_Layer: 0
   m_Name: Coin (27)
   m_TagString: Untagged
@@ -11729,6 +12136,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 811909438}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &811909443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 811909438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1001 &816523235
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11868,6 +12289,7 @@ GameObject:
   - component: {fileID: 842704469}
   - component: {fileID: 842704468}
   - component: {fileID: 842704467}
+  - component: {fileID: 842704470}
   m_Layer: 0
   m_Name: Coin (03)
   m_TagString: Untagged
@@ -11970,6 +12392,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 842704465}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &842704470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 842704465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1 &843647536
 GameObject:
   m_ObjectHideFlags: 0
@@ -12115,6 +12551,7 @@ GameObject:
   - component: {fileID: 847366536}
   - component: {fileID: 847366535}
   - component: {fileID: 847366534}
+  - component: {fileID: 847366537}
   m_Layer: 0
   m_Name: Coin (41)
   m_TagString: Untagged
@@ -12217,6 +12654,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 847366532}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &847366537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847366532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1 &847788985
 GameObject:
   m_ObjectHideFlags: 0
@@ -12373,6 +12824,7 @@ GameObject:
   - component: {fileID: 853565946}
   - component: {fileID: 853565945}
   - component: {fileID: 853565944}
+  - component: {fileID: 853565947}
   m_Layer: 0
   m_Name: Coin (61)
   m_TagString: Untagged
@@ -12475,6 +12927,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 853565942}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &853565947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 853565942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1 &853736295
 GameObject:
   m_ObjectHideFlags: 0
@@ -12578,6 +13044,7 @@ GameObject:
   - component: {fileID: 856957481}
   - component: {fileID: 856957480}
   - component: {fileID: 856957479}
+  - component: {fileID: 856957482}
   m_Layer: 0
   m_Name: Coin (10)
   m_TagString: Untagged
@@ -12680,6 +13147,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 856957477}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &856957482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 856957477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1 &859216494
 GameObject:
   m_ObjectHideFlags: 0
@@ -12692,6 +13173,7 @@ GameObject:
   - component: {fileID: 859216498}
   - component: {fileID: 859216497}
   - component: {fileID: 859216496}
+  - component: {fileID: 859216499}
   m_Layer: 0
   m_Name: Coin (29)
   m_TagString: Untagged
@@ -12794,6 +13276,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 859216494}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &859216499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 859216494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1 &861909785
 GameObject:
   m_ObjectHideFlags: 0
@@ -12806,6 +13302,7 @@ GameObject:
   - component: {fileID: 861909789}
   - component: {fileID: 861909788}
   - component: {fileID: 861909787}
+  - component: {fileID: 861909790}
   m_Layer: 0
   m_Name: Coin (43)
   m_TagString: Untagged
@@ -12908,6 +13405,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 861909785}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &861909790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 861909785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!4 &876635822 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 83e8d2542718a2e49a73d71c3a5fc685, type: 3}
@@ -12925,6 +13436,7 @@ GameObject:
   - component: {fileID: 877618655}
   - component: {fileID: 877618654}
   - component: {fileID: 877618653}
+  - component: {fileID: 877618656}
   m_Layer: 0
   m_Name: Coin (18)
   m_TagString: Untagged
@@ -13027,6 +13539,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 877618651}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &877618656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 877618651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1 &882926265
 GameObject:
   m_ObjectHideFlags: 0
@@ -13151,6 +13677,7 @@ GameObject:
   - component: {fileID: 883754955}
   - component: {fileID: 883754954}
   - component: {fileID: 883754953}
+  - component: {fileID: 883754956}
   m_Layer: 0
   m_Name: Coin (12)
   m_TagString: Untagged
@@ -13253,6 +13780,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 883754951}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &883754956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 883754951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1 &885057081 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 36a75e11c9f6f4032a59f1c5e5203bc2, type: 3}
@@ -13408,6 +13949,7 @@ GameObject:
   - component: {fileID: 890124872}
   - component: {fileID: 890124871}
   - component: {fileID: 890124870}
+  - component: {fileID: 890124873}
   m_Layer: 0
   m_Name: Coin (56)
   m_TagString: Untagged
@@ -13510,6 +14052,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 890124868}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &890124873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 890124868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!4 &891117494 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1175884374739351441, guid: 8da9039ff46efd346829465789814f89, type: 3}
@@ -13527,6 +14083,7 @@ GameObject:
   - component: {fileID: 908854172}
   - component: {fileID: 908854171}
   - component: {fileID: 908854170}
+  - component: {fileID: 908854173}
   m_Layer: 0
   m_Name: Coin (20)
   m_TagString: Untagged
@@ -13629,6 +14186,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 908854168}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &908854173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 908854168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1001 &912284592
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13851,6 +14422,7 @@ GameObject:
   - component: {fileID: 935437761}
   - component: {fileID: 935437760}
   - component: {fileID: 935437759}
+  - component: {fileID: 935437762}
   m_Layer: 0
   m_Name: Coin (49)
   m_TagString: Untagged
@@ -13953,6 +14525,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 935437757}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &935437762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 935437757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!4 &941403671 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 57d3eed6d2253d24994d5ad37e00aedc, type: 3}
@@ -14264,6 +14850,7 @@ GameObject:
   - component: {fileID: 959139621}
   - component: {fileID: 959139620}
   - component: {fileID: 959139619}
+  - component: {fileID: 959139622}
   m_Layer: 0
   m_Name: Coin (58)
   m_TagString: Untagged
@@ -14366,6 +14953,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 959139617}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &959139622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 959139617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1 &960609347
 GameObject:
   m_ObjectHideFlags: 0
@@ -14378,6 +14979,7 @@ GameObject:
   - component: {fileID: 960609351}
   - component: {fileID: 960609350}
   - component: {fileID: 960609349}
+  - component: {fileID: 960609352}
   m_Layer: 0
   m_Name: Coin
   m_TagString: Untagged
@@ -14480,6 +15082,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 960609347}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &960609352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 960609347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1001 &981748631
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14646,6 +15262,7 @@ GameObject:
   - component: {fileID: 1001273487}
   - component: {fileID: 1001273486}
   - component: {fileID: 1001273485}
+  - component: {fileID: 1001273488}
   m_Layer: 0
   m_Name: Coin (36)
   m_TagString: Untagged
@@ -14748,6 +15365,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1001273483}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1001273488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1001273483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1001 &1001639442
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14836,6 +15467,52 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.9113297, y: 1.4904842, z: 1.1934172}
   m_Center: {x: -0.0015135407, y: -0.10343823, z: -0.39506325}
+--- !u!1 &1002594161
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1002594162}
+  - component: {fileID: 1002594163}
+  m_Layer: 0
+  m_Name: Coin (63)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1002594162
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1002594161}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -86.9568, y: -88.12572, z: 104.27744}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1739554473}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1002594163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1002594161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1 &1024047029
 GameObject:
   m_ObjectHideFlags: 0
@@ -14848,6 +15525,7 @@ GameObject:
   - component: {fileID: 1024047033}
   - component: {fileID: 1024047032}
   - component: {fileID: 1024047031}
+  - component: {fileID: 1024047034}
   m_Layer: 0
   m_Name: Coin (46)
   m_TagString: Untagged
@@ -14950,6 +15628,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1024047029}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1024047034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1024047029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1001 &1024749376
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15039,6 +15731,7 @@ GameObject:
   - component: {fileID: 1031129153}
   - component: {fileID: 1031129152}
   - component: {fileID: 1031129151}
+  - component: {fileID: 1031129155}
   m_Layer: 0
   m_Name: Coin (1)
   m_TagString: Untagged
@@ -15141,6 +15834,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1739554473}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &1031129155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1031129150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!4 &1031369818 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1175884374739351441, guid: 8da9039ff46efd346829465789814f89, type: 3}
@@ -15158,6 +15865,7 @@ GameObject:
   - component: {fileID: 1032589171}
   - component: {fileID: 1032589170}
   - component: {fileID: 1032589169}
+  - component: {fileID: 1032589172}
   m_Layer: 0
   m_Name: Coin (5)
   m_TagString: Untagged
@@ -15260,6 +15968,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1032589167}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1032589172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032589167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1 &1035422973
 GameObject:
   m_ObjectHideFlags: 0
@@ -15272,6 +15994,7 @@ GameObject:
   - component: {fileID: 1035422976}
   - component: {fileID: 1035422975}
   - component: {fileID: 1035422974}
+  - component: {fileID: 1035422978}
   m_Layer: 0
   m_Name: Coin (4)
   m_TagString: Untagged
@@ -15374,6 +16097,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1739554473}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &1035422978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1035422973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1 &1049522163
 GameObject:
   m_ObjectHideFlags: 0
@@ -15386,6 +16123,7 @@ GameObject:
   - component: {fileID: 1049522166}
   - component: {fileID: 1049522165}
   - component: {fileID: 1049522164}
+  - component: {fileID: 1049522168}
   m_Layer: 0
   m_Name: Coin (3)
   m_TagString: Untagged
@@ -15488,6 +16226,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1739554473}
   m_LocalEulerAnglesHint: {x: 90, y: 180, z: 0}
+--- !u!114 &1049522168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1049522163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1001 &1050210410
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16230,6 +16982,7 @@ GameObject:
   - component: {fileID: 1077645689}
   - component: {fileID: 1077645688}
   - component: {fileID: 1077645687}
+  - component: {fileID: 1077645690}
   m_Layer: 0
   m_Name: Coin (04)
   m_TagString: Untagged
@@ -16332,6 +17085,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1077645685}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1077645690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077645685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1 &1079564494
 GameObject:
   m_ObjectHideFlags: 0
@@ -16344,6 +17111,7 @@ GameObject:
   - component: {fileID: 1079564498}
   - component: {fileID: 1079564497}
   - component: {fileID: 1079564496}
+  - component: {fileID: 1079564499}
   m_Layer: 0
   m_Name: Coin (55)
   m_TagString: Untagged
@@ -16446,6 +17214,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1079564494}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1079564499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1079564494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1 &1081375195
 GameObject:
   m_ObjectHideFlags: 0
@@ -18184,6 +18966,7 @@ GameObject:
   - component: {fileID: 1191515899}
   - component: {fileID: 1191515898}
   - component: {fileID: 1191515897}
+  - component: {fileID: 1191515900}
   m_Layer: 0
   m_Name: Coin (50)
   m_TagString: Untagged
@@ -18286,6 +19069,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1191515895}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1191515900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1191515895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1001 &1201002760
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18447,6 +19244,7 @@ GameObject:
   - component: {fileID: 1208647801}
   - component: {fileID: 1208647800}
   - component: {fileID: 1208647799}
+  - component: {fileID: 1208647802}
   m_Layer: 0
   m_Name: Coin (11)
   m_TagString: Untagged
@@ -18549,6 +19347,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1208647797}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1208647802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1208647797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1001 &1226869725
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18857,6 +19669,7 @@ GameObject:
   - component: {fileID: 1240256760}
   - component: {fileID: 1240256759}
   - component: {fileID: 1240256758}
+  - component: {fileID: 1240256762}
   m_Layer: 0
   m_Name: Coin
   m_TagString: Untagged
@@ -18959,6 +19772,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1739554473}
   m_LocalEulerAnglesHint: {x: 90, y: 180, z: 0}
+--- !u!114 &1240256762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1240256757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1001 &1249134066
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19092,6 +19919,7 @@ GameObject:
   - component: {fileID: 1277557478}
   - component: {fileID: 1277557477}
   - component: {fileID: 1277557476}
+  - component: {fileID: 1277557479}
   m_Layer: 0
   m_Name: Coin (33)
   m_TagString: Untagged
@@ -19194,6 +20022,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1277557474}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1277557479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1277557474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1 &1277942758 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 36a75e11c9f6f4032a59f1c5e5203bc2, type: 3}
@@ -19475,6 +20317,7 @@ GameObject:
   - component: {fileID: 1325264719}
   - component: {fileID: 1325264718}
   - component: {fileID: 1325264717}
+  - component: {fileID: 1325264720}
   m_Layer: 0
   m_Name: Coin (17)
   m_TagString: Untagged
@@ -19577,6 +20420,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1325264715}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1325264720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1325264715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1001 &1326858673
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19765,6 +20622,7 @@ GameObject:
   - component: {fileID: 1328871425}
   - component: {fileID: 1328871424}
   - component: {fileID: 1328871423}
+  - component: {fileID: 1328871426}
   m_Layer: 0
   m_Name: Coin (17)
   m_TagString: Untagged
@@ -19867,6 +20725,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1328871421}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1328871426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1328871421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1 &1330176607
 GameObject:
   m_ObjectHideFlags: 0
@@ -20372,6 +21244,7 @@ GameObject:
   - component: {fileID: 1364291262}
   - component: {fileID: 1364291261}
   - component: {fileID: 1364291260}
+  - component: {fileID: 1364291263}
   m_Layer: 0
   m_Name: Coin (62)
   m_TagString: Untagged
@@ -20474,6 +21347,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1364291258}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1364291263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1364291258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1 &1364426977
 GameObject:
   m_ObjectHideFlags: 0
@@ -20764,6 +21651,7 @@ GameObject:
   - component: {fileID: 1388188817}
   - component: {fileID: 1388188816}
   - component: {fileID: 1388188815}
+  - component: {fileID: 1388188818}
   m_Layer: 0
   m_Name: Coin (42)
   m_TagString: Untagged
@@ -20866,6 +21754,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1388188813}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1388188818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1388188813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1 &1392068738
 GameObject:
   m_ObjectHideFlags: 0
@@ -21346,6 +22248,7 @@ GameObject:
   - component: {fileID: 1450596794}
   - component: {fileID: 1450596793}
   - component: {fileID: 1450596792}
+  - component: {fileID: 1450596795}
   m_Layer: 0
   m_Name: Coin (54)
   m_TagString: Untagged
@@ -21448,6 +22351,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1450596790}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1450596795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1450596790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1001 &1458862033
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21918,6 +22835,7 @@ GameObject:
   - component: {fileID: 1483759854}
   - component: {fileID: 1483759853}
   - component: {fileID: 1483759852}
+  - component: {fileID: 1483759855}
   m_Layer: 0
   m_Name: Coin (6)
   m_TagString: Untagged
@@ -22020,6 +22938,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1483759850}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1483759855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483759850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1 &1485740452 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 36a75e11c9f6f4032a59f1c5e5203bc2, type: 3}
@@ -22304,6 +23236,7 @@ GameObject:
   - component: {fileID: 1498173488}
   - component: {fileID: 1498173487}
   - component: {fileID: 1498173486}
+  - component: {fileID: 1498173489}
   m_Layer: 0
   m_Name: Coin (45)
   m_TagString: Untagged
@@ -22406,6 +23339,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1498173484}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1498173489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1498173484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1 &1508851921
 GameObject:
   m_ObjectHideFlags: 0
@@ -22700,6 +23647,7 @@ GameObject:
   - component: {fileID: 1527883407}
   - component: {fileID: 1527883406}
   - component: {fileID: 1527883405}
+  - component: {fileID: 1527883408}
   m_Layer: 0
   m_Name: Coin (14)
   m_TagString: Untagged
@@ -22802,6 +23750,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1527883403}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1527883408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527883403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1 &1534233185
 GameObject:
   m_ObjectHideFlags: 0
@@ -22814,6 +23776,7 @@ GameObject:
   - component: {fileID: 1534233189}
   - component: {fileID: 1534233188}
   - component: {fileID: 1534233187}
+  - component: {fileID: 1534233190}
   m_Layer: 0
   m_Name: Coin (52)
   m_TagString: Untagged
@@ -22916,6 +23879,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1534233185}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1534233190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1534233185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1001 &1545446793
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23068,6 +24045,7 @@ GameObject:
   - component: {fileID: 1558343643}
   - component: {fileID: 1558343642}
   - component: {fileID: 1558343641}
+  - component: {fileID: 1558343645}
   m_Layer: 0
   m_Name: Coin (4)
   m_TagString: Untagged
@@ -23170,6 +24148,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1739554473}
   m_LocalEulerAnglesHint: {x: 90, y: 180, z: 0}
+--- !u!114 &1558343645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1558343640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1001 &1563068060
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23441,6 +24433,7 @@ GameObject:
   - component: {fileID: 1573992349}
   - component: {fileID: 1573992348}
   - component: {fileID: 1573992347}
+  - component: {fileID: 1573992350}
   m_Layer: 0
   m_Name: Coin (19)
   m_TagString: Untagged
@@ -23543,6 +24536,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1573992345}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1573992350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1573992345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1001 &1576724635
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23848,6 +24855,7 @@ GameObject:
   - component: {fileID: 1586064869}
   - component: {fileID: 1586064868}
   - component: {fileID: 1586064867}
+  - component: {fileID: 1586064870}
   m_Layer: 0
   m_Name: Coin (21)
   m_TagString: Untagged
@@ -23950,6 +24958,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1586064865}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1586064870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1586064865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!4 &1587657795 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5c4abeea0e78a874682fe8ec8e80bad9, type: 3}
@@ -24079,6 +25101,7 @@ GameObject:
   - component: {fileID: 1589545995}
   - component: {fileID: 1589545994}
   - component: {fileID: 1589545993}
+  - component: {fileID: 1589545996}
   m_Layer: 0
   m_Name: Coin (60)
   m_TagString: Untagged
@@ -24181,6 +25204,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1589545991}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1589545996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1589545991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1 &1598179299
 GameObject:
   m_ObjectHideFlags: 0
@@ -24193,6 +25230,7 @@ GameObject:
   - component: {fileID: 1598179303}
   - component: {fileID: 1598179302}
   - component: {fileID: 1598179301}
+  - component: {fileID: 1598179304}
   m_Layer: 0
   m_Name: Coin (12)
   m_TagString: Untagged
@@ -24295,6 +25333,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1598179299}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1598179304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1598179299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!4 &1608120799 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 28052bd2800d245a6a9d447d30576b92, type: 3}
@@ -24598,6 +25650,7 @@ GameObject:
   - component: {fileID: 1640441150}
   - component: {fileID: 1640441149}
   - component: {fileID: 1640441148}
+  - component: {fileID: 1640441151}
   m_Layer: 0
   m_Name: Coin (06)
   m_TagString: Untagged
@@ -24700,6 +25753,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1640441146}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1640441151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640441146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1001 &1641927835
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25469,6 +26536,7 @@ GameObject:
   - component: {fileID: 1709700592}
   - component: {fileID: 1709700591}
   - component: {fileID: 1709700590}
+  - component: {fileID: 1709700593}
   m_Layer: 0
   m_Name: Coin (11)
   m_TagString: Untagged
@@ -25571,6 +26639,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1709700588}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1709700593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709700588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1 &1712260073 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6b7381b65278648049dcc0ee075a7eb1, type: 3}
@@ -25889,23 +26971,10 @@ Transform:
   - {fileID: 1978147497}
   - {fileID: 1936726689}
   - {fileID: 1534233186}
-  - {fileID: 1904672483}
-  - {fileID: 1079564495}
-  - {fileID: 438718863}
-  - {fileID: 1589545992}
-  - {fileID: 853565943}
-  - {fileID: 1364291259}
-  - {fileID: 890124869}
-  - {fileID: 58587637}
-  - {fileID: 959139618}
-  - {fileID: 1450596791}
-  - {fileID: 204951130}
-  - {fileID: 935437758}
-  - {fileID: 1191515896}
-  - {fileID: 2071215605}
-  - {fileID: 1498173485}
-  - {fileID: 1024047030}
   - {fileID: 847366533}
+  - {fileID: 1024047030}
+  - {fileID: 1498173485}
+  - {fileID: 808795653}
   - {fileID: 1388188814}
   - {fileID: 342755834}
   - {fileID: 2013208335}
@@ -25916,6 +26985,21 @@ Transform:
   - {fileID: 2002393019}
   - {fileID: 566030551}
   - {fileID: 1558343644}
+  - {fileID: 2071215605}
+  - {fileID: 1191515896}
+  - {fileID: 935437758}
+  - {fileID: 204951130}
+  - {fileID: 1450596791}
+  - {fileID: 959139618}
+  - {fileID: 58587637}
+  - {fileID: 890124869}
+  - {fileID: 1364291259}
+  - {fileID: 853565943}
+  - {fileID: 1589545992}
+  - {fileID: 1904672483}
+  - {fileID: 438718863}
+  - {fileID: 1079564495}
+  - {fileID: 1002594162}
   m_Father: {fileID: 693621333}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1740699944
@@ -26150,6 +27234,7 @@ GameObject:
   - component: {fileID: 1758401855}
   - component: {fileID: 1758401854}
   - component: {fileID: 1758401853}
+  - component: {fileID: 1758401856}
   m_Layer: 0
   m_Name: Coin (7)
   m_TagString: Untagged
@@ -26252,6 +27337,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1758401851}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1758401856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758401851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1 &1779219417
 GameObject:
   m_ObjectHideFlags: 0
@@ -26264,6 +27363,7 @@ GameObject:
   - component: {fileID: 1779219421}
   - component: {fileID: 1779219420}
   - component: {fileID: 1779219419}
+  - component: {fileID: 1779219422}
   m_Layer: 0
   m_Name: Coin (02)
   m_TagString: Untagged
@@ -26366,6 +27466,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1779219417}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1779219422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1779219417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1 &1780548772
 GameObject:
   m_ObjectHideFlags: 0
@@ -26500,6 +27614,7 @@ GameObject:
   - component: {fileID: 1797499278}
   - component: {fileID: 1797499277}
   - component: {fileID: 1797499276}
+  - component: {fileID: 1797499280}
   m_Layer: 0
   m_Name: Coin (2)
   m_TagString: Untagged
@@ -26602,6 +27717,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1739554473}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &1797499280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1797499275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1 &1808010403
 GameObject:
   m_ObjectHideFlags: 0
@@ -26937,6 +28066,7 @@ GameObject:
   - component: {fileID: 1834561441}
   - component: {fileID: 1834561440}
   - component: {fileID: 1834561439}
+  - component: {fileID: 1834561442}
   m_Layer: 0
   m_Name: Coin (15)
   m_TagString: Untagged
@@ -27039,6 +28169,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1834561437}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1834561442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1834561437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1001 &1842496910
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27115,6 +28259,7 @@ GameObject:
   - component: {fileID: 1849667445}
   - component: {fileID: 1849667444}
   - component: {fileID: 1849667443}
+  - component: {fileID: 1849667447}
   m_Layer: 0
   m_Name: Coin (2)
   m_TagString: Untagged
@@ -27217,6 +28362,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1739554473}
   m_LocalEulerAnglesHint: {x: 90, y: 180, z: 0}
+--- !u!114 &1849667447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849667442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1001 &1859545899
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27310,6 +28469,7 @@ GameObject:
   - component: {fileID: 1867398610}
   - component: {fileID: 1867398609}
   - component: {fileID: 1867398608}
+  - component: {fileID: 1867398611}
   m_Layer: 0
   m_Name: Coin (21)
   m_TagString: Untagged
@@ -27412,6 +28572,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1867398606}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1867398611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867398606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1001 &1868786147
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27854,6 +29028,7 @@ GameObject:
   - component: {fileID: 1904672486}
   - component: {fileID: 1904672485}
   - component: {fileID: 1904672484}
+  - component: {fileID: 1904672487}
   m_Layer: 0
   m_Name: Coin (53)
   m_TagString: Untagged
@@ -27956,6 +29131,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1904672482}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1904672487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1904672482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1 &1909926949
 GameObject:
   m_ObjectHideFlags: 0
@@ -28378,6 +29567,7 @@ GameObject:
   - component: {fileID: 1936726692}
   - component: {fileID: 1936726691}
   - component: {fileID: 1936726690}
+  - component: {fileID: 1936726693}
   m_Layer: 0
   m_Name: Coin (51)
   m_TagString: Untagged
@@ -28480,6 +29670,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1936726688}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1936726693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1936726688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!4 &1940491875 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1175884374739351441, guid: 8da9039ff46efd346829465789814f89, type: 3}
@@ -28588,6 +29792,7 @@ GameObject:
   - component: {fileID: 1943024755}
   - component: {fileID: 1943024754}
   - component: {fileID: 1943024753}
+  - component: {fileID: 1943024756}
   m_Layer: 0
   m_Name: Coin (07)
   m_TagString: Untagged
@@ -28690,6 +29895,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1943024751}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1943024756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1943024751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1001 &1943236649
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28797,6 +30016,7 @@ GameObject:
   - component: {fileID: 1949404326}
   - component: {fileID: 1949404325}
   - component: {fileID: 1949404324}
+  - component: {fileID: 1949404327}
   m_Layer: 0
   m_Name: Coin (20)
   m_TagString: Untagged
@@ -28899,6 +30119,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1949404322}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1949404327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1949404322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1001 &1962467046
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28975,6 +30209,7 @@ GameObject:
   - component: {fileID: 1965523872}
   - component: {fileID: 1965523871}
   - component: {fileID: 1965523870}
+  - component: {fileID: 1965523873}
   m_Layer: 0
   m_Name: Coin (35)
   m_TagString: Untagged
@@ -29077,6 +30312,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1965523868}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1965523873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1965523868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1 &1972199015
 GameObject:
   m_ObjectHideFlags: 0
@@ -29089,6 +30338,7 @@ GameObject:
   - component: {fileID: 1972199019}
   - component: {fileID: 1972199018}
   - component: {fileID: 1972199017}
+  - component: {fileID: 1972199020}
   m_Layer: 0
   m_Name: Coin (09)
   m_TagString: Untagged
@@ -29191,6 +30441,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1972199015}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1972199020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972199015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1 &1973047226 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 36a75e11c9f6f4032a59f1c5e5203bc2, type: 3}
@@ -29234,6 +30498,7 @@ GameObject:
   - component: {fileID: 1978147500}
   - component: {fileID: 1978147499}
   - component: {fileID: 1978147498}
+  - component: {fileID: 1978147501}
   m_Layer: 0
   m_Name: Coin (47)
   m_TagString: Untagged
@@ -29336,6 +30601,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1978147496}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1978147501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1978147496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1 &1983020655
 GameObject:
   m_ObjectHideFlags: 0
@@ -29465,6 +30744,7 @@ GameObject:
   - component: {fileID: 2002393022}
   - component: {fileID: 2002393021}
   - component: {fileID: 2002393020}
+  - component: {fileID: 2002393024}
   m_Layer: 0
   m_Name: Coin (25)
   m_TagString: Untagged
@@ -29567,6 +30847,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2002393018}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2002393024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2002393018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1001 &2012177623
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29648,6 +30942,7 @@ GameObject:
   - component: {fileID: 2012248754}
   - component: {fileID: 2012248753}
   - component: {fileID: 2012248752}
+  - component: {fileID: 2012248755}
   m_Layer: 0
   m_Name: Coin (19)
   m_TagString: Untagged
@@ -29750,6 +31045,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2012248750}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2012248755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2012248750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1 &2013208334
 GameObject:
   m_ObjectHideFlags: 0
@@ -29762,6 +31071,7 @@ GameObject:
   - component: {fileID: 2013208338}
   - component: {fileID: 2013208337}
   - component: {fileID: 2013208336}
+  - component: {fileID: 2013208339}
   m_Layer: 0
   m_Name: Coin (38)
   m_TagString: Untagged
@@ -29864,6 +31174,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2013208334}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2013208339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2013208334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!4 &2014168382 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1175884374739351441, guid: 8da9039ff46efd346829465789814f89, type: 3}
@@ -29881,6 +31205,7 @@ GameObject:
   - component: {fileID: 2031396079}
   - component: {fileID: 2031396078}
   - component: {fileID: 2031396077}
+  - component: {fileID: 2031396080}
   m_Layer: 0
   m_Name: Coin (9)
   m_TagString: Untagged
@@ -29983,6 +31308,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2031396075}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2031396080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2031396075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1 &2031523555
 GameObject:
   m_ObjectHideFlags: 0
@@ -29995,6 +31334,7 @@ GameObject:
   - component: {fileID: 2031523559}
   - component: {fileID: 2031523558}
   - component: {fileID: 2031523557}
+  - component: {fileID: 2031523560}
   m_Layer: 0
   m_Name: Coin (28)
   m_TagString: Untagged
@@ -30097,6 +31437,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2031523555}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2031523560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2031523555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1 &2036886164
 GameObject:
   m_ObjectHideFlags: 0
@@ -30619,6 +31973,7 @@ GameObject:
   - component: {fileID: 2049275845}
   - component: {fileID: 2049275844}
   - component: {fileID: 2049275843}
+  - component: {fileID: 2049275846}
   m_Layer: 0
   m_Name: Coin (15)
   m_TagString: Untagged
@@ -30721,6 +32076,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2049275841}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2049275846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2049275841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1001 &2053756262
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30810,6 +32179,7 @@ GameObject:
   - component: {fileID: 2058853657}
   - component: {fileID: 2058853656}
   - component: {fileID: 2058853655}
+  - component: {fileID: 2058853658}
   m_Layer: 0
   m_Name: Coin (13)
   m_TagString: Untagged
@@ -30912,6 +32282,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2058853653}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2058853658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2058853653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1 &2071215604
 GameObject:
   m_ObjectHideFlags: 0
@@ -30924,6 +32308,7 @@ GameObject:
   - component: {fileID: 2071215608}
   - component: {fileID: 2071215607}
   - component: {fileID: 2071215606}
+  - component: {fileID: 2071215609}
   m_Layer: 0
   m_Name: Coin (44)
   m_TagString: Untagged
@@ -31026,6 +32411,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2071215604}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2071215609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2071215604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1 &2072705763
 GameObject:
   m_ObjectHideFlags: 0
@@ -31193,6 +32592,7 @@ GameObject:
   - component: {fileID: 2083587733}
   - component: {fileID: 2083587732}
   - component: {fileID: 2083587731}
+  - component: {fileID: 2083587734}
   m_Layer: 0
   m_Name: Coin (40)
   m_TagString: Untagged
@@ -31295,6 +32695,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2083587729}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2083587734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2083587729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!4 &2087841365 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 83e8d2542718a2e49a73d71c3a5fc685, type: 3}
@@ -31691,6 +33105,7 @@ GameObject:
   - component: {fileID: 2124816647}
   - component: {fileID: 2124816646}
   - component: {fileID: 2124816645}
+  - component: {fileID: 2124816648}
   m_Layer: 0
   m_Name: Coin (05)
   m_TagString: Untagged
@@ -31793,6 +33208,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2124816643}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2124816648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2124816643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1001 &2128075402
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31994,6 +33423,7 @@ GameObject:
   - component: {fileID: 2138988625}
   - component: {fileID: 2138988624}
   - component: {fileID: 2138988623}
+  - component: {fileID: 2138988627}
   m_Layer: 0
   m_Name: Coin (1)
   m_TagString: Untagged
@@ -32096,6 +33526,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1739554473}
   m_LocalEulerAnglesHint: {x: 90, y: 180, z: 0}
+--- !u!114 &2138988627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2138988622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fc1da5e4b6db4086c3ab6aa2777cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
+  value: 1
+  rotationSpeed: 180
 --- !u!1001 &2145191102
 PrefabInstance:
   m_ObjectHideFlags: 0
