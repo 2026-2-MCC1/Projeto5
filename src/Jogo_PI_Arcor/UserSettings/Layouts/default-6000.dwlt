@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 112}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 39
+  controlID: 96
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -209,7 +209,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SceneView
+  m_Name: GameView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -218,15 +218,15 @@ MonoBehaviour:
     y: 0
     width: 1113
     height: 549
-  m_MinSize: {x: 202, y: 226}
-  m_MaxSize: {x: 4002, y: 4026}
-  m_ActualView: {fileID: 15}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 15}
   - {fileID: 13}
   - {fileID: 16}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -617,7 +617,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -694,17 +694,14 @@ MonoBehaviour:
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
-      - m_Data: -85184
-      - m_Data: -84158
-      - m_Data: -77760
-      - m_Data: -54086
-      - m_Data: -52764
-      - m_Data: 66122
-      - m_Data: 66814
-      - m_Data: 66960
-      - m_Data: 68192
-      - m_Data: 68650
-      - m_Data: 68772
+      - m_Data: -59980
+      - m_Data: -59770
+      - m_Data: -54474
+      - m_Data: -52934
+      - m_Data: 66080
+      - m_Data: 66114
+      - m_Data: 69700
+      - m_Data: 69714
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1171,9 +1168,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 3.0877142, y: 11.224344, z: 454.10757}
+    m_Target: {x: 512.3274, y: -2429.8208, z: -777.91046}
     speed: 2
-    m_Value: {x: 3.0877142, y: 11.224344, z: 454.10757}
+    m_Value: {x: 512.3274, y: -2429.8208, z: -777.91046}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1219,13 +1216,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.001371557, y: 0.9986221, z: 0.038658667, w: -0.038678605}
+    m_Target: {x: 0.13186014, y: -0.035684638, z: 0.004667229, w: 0.9907395}
     speed: 2
-    m_Value: {x: 0.0013713936, y: 0.9985031, z: 0.03865406, w: -0.038673993}
+    m_Value: {x: 0.13184385, y: -0.03568023, z: 0.0046666525, w: 0.99061716}
   m_Size:
-    m_Target: 2.8223438
+    m_Target: 618.95544
     speed: 2
-    m_Value: 2.8223438
+    m_Value: 618.95544
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1382,7 +1379,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Materials
+    - Assets/Images
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1392,21 +1389,21 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Materials
+  - Assets/Images
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\26029560\Documents\GitHub\Projeto5\src\Jogo_PI_Arcor
+  m_LastProjectPath: C:\Users\26029692\Downloads\PI projeto\Projeto5\src\Jogo_PI_Arcor
   m_LockTracker:
     m_IsLocked: 0
   m_LastLocalAssetsSearchArea: 1
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs:
-    - m_Data: 65840
+    - m_Data: 65900
     m_LastClickedID:
-      m_Data: 65840
+      m_Data: 65900
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 65830
+    - m_Data: 65892
     - m_Data: 1000000000
     - m_Data: 2147483647
     m_RenameOverlay:

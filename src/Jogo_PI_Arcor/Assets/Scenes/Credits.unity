@@ -416,6 +416,7 @@ RectTransform:
   - {fileID: 1964893722}
   - {fileID: 813135627}
   - {fileID: 583738898}
+  - {fileID: 1088031587}
   m_Father: {fileID: 701329274}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -457,8 +458,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e5ed1fb5e86cc8448dbb85897b554a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CreditsScroll
-  speed: 100
-  FinalLimit: 2000
+  speed: 200
+  FinalLimit: 3000
   TimeBack: 2
 --- !u!1 &583738897
 GameObject:
@@ -668,13 +669,23 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Desenvolvido por:\r\nAurelio Felippo Cruz Pessina Santos\r\nGustavo de
-    Souza Minelli\r\nGustavo Duarte G\xFCering Guimaraes\r\nThomas Correa Janini\r\n\r\nPrograma\xE7\xE3o\r\n\r\nMec\xE2nicas
-    e Gameplay\r\n\r\nAnima\xE7\xF5es\r\n\r\nArte e Design\r\n\r\nLevel Design\r\n\r\nInterface
-    (UI)\r\n\r\nM\xFAsica e Sons\r\n\r\nRoteiro e Narrativa\r\n\r\nEngine\r\n(Logo
-    Unity) Unity\r\n\r\nFerramentas e Recursos\r\n(Logos se puder) Nome das ferramentas,
-    Ex. Suno.AI, OpenGameArt(quando usar de criadores, colocar cr\xE9ditos a ele),
-    \r\n\r\nAgradecimentos especiais:\r\n(Nome dos professores)\r\n"
+  m_text: "Desenvolvido por:\nAurelio Felippo Cruz Pessina Santos\nGustavo de Souza
+    Minelli\nGustavo Duarte G\xFCering Guimaraes\nThomas Correa Janini\n\nPrograma\xE7\xE3o\nAurelio
+    Felippo Cruz Pessina Santos\nGustavo de Souza Minelli\nGustavo Duarte G\xFCering
+    Guimaraes\nThomas Correa Janini\n\nMec\xE2nicas e Gameplay\nAurelio Felippo Cruz
+    Pessina Santos\nGustavo de Souza Minelli\nGustavo Duarte G\xFCering Guimaraes\nThomas
+    Correa Janini\n\nAnima\xE7\xF5es\nAurelio Felippo Cruz Pessina Santos\nGustavo
+    de Souza Minelli\nGustavo Duarte G\xFCering Guimaraes\nThomas Correa Janini\n\nArte
+    e Design\nAurelio Felippo Cruz Pessina Santos\nGustavo de Souza Minelli\nGustavo
+    Duarte G\xFCering Guimaraes\nThomas Correa Janini\n\nInterface (UI)\nAurelio
+    Felippo Cruz Pessina Santos\nGustavo de Souza Minelli\nGustavo Duarte G\xFCering
+    Guimaraes\nThomas Correa Janini\n\nM\xFAsica e Sons\nAurelio Felippo Cruz Pessina
+    Santos\nGustavo de Souza Minelli\nGustavo Duarte G\xFCering Guimaraes\nThomas
+    Correa Janini\n\nRoteiro e Narrativa\nAurelio Felippo Cruz Pessina Santos\nGustavo
+    de Souza Minelli\nGustavo Duarte G\xFCering Guimaraes\nThomas Correa Janini\n\nEngine\n\n\n\n\n\n\n\n\n\nFerramentas
+    e Recursos\nBlender\nChatGPT\nClaude\nSuno.AI\n\n\nAgradecimentos especiais:\nAdriano
+    Felix Valente\nDavid de Oliveira Lemes\nEduardo Savino Gomes\nLuis Fernando dos
+    Santos Pires\nRenata Muniz Do Nascimento\nVictor Bruno Alexander Rosetti de Quiroz\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1245,6 +1256,81 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1088031586
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1088031587}
+  - component: {fileID: 1088031589}
+  - component: {fileID: 1088031588}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1088031587
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1088031586}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 8, y: 8, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 320020978}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -414, y: -1942}
+  m_SizeDelta: {x: 89, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1088031588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1088031586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 5658d2eb21b965349b6778cd086e88d4, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1088031589
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1088031586}
+  m_CullTransparentMesh: 1
 --- !u!1 &1573501185
 GameObject:
   m_ObjectHideFlags: 0
