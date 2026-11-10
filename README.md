@@ -21,7 +21,7 @@ Vide tutoriais do PI.
 ## Arcoria é um jogo 3D para PC, desenvolvido na Unity com a linguagem C#. Com estilo de ação e aventura e jogabilidade inspirada em endless runners, o jogo apresenta uma aventura em terceira pessoa em um mundo colorido baseado no universo de produtos e personagens da Arcor. O jogador controla Arcorito, que recebe a missão de ajudar Tortuguita a recuperar os itens roubados do Baú das Delícias. Para completar o percurso pela Ilha dos Doces, é preciso avançar pelo cenário, desviar dos obstáculos e inimigos, pular e coletar os itens espalhados pelo caminho. O projeto foi desenvolvido como parte do Projeto Interdisciplinar do curso de Ciência da Computação da FECAP.
 
 <p align="center">
-<img src="https://pix4free.org/assets/library/2021-01-20/originals/game.jpg" alt="NOME DO JOGO" border="0">
+<img src="src/Jogo_PI_Arcor/Assets/Images/Design sem nome.png" alt="ARCORIA" border="0">
   Arcoria by <a href="https://www.linkedin.com/in/gustavo-g%C3%BCering-aa9583403?utm_source=share_via&utm_content=profile&utm_medium=member_ios">Gustavo Güering</a>, <a href="https://github.com/ThomasJanini">Thomas Janini</a>, <a href="https://www.linkedin.com/in/aur%C3%A9lio-felippo-9581372a2/">Felippo Cruz</a>, <a href="https://www.linkedin.com/in/gustavo-minelli-1ba9b03b4?utm_source=share_via&utm_content=profile&utm_medium=member_android">Gustavo Minelli</a>
 </p>
 
@@ -72,7 +72,7 @@ Para abrir este projeto você necessita das seguintes ferramentas:
 
 
 ## 📋 Licença/License
-Arcorito Adventures © 2026 por Aurélio Felippo Cruz Pessina Santos, Gustavo De Souza Minelli, Gustavo Duarte Güering, Thomas Correa Janini está licenciado sob Creative Commons Attribution-NoDerivatives 4.0 International
+Arcorito Adventures © 2026 por Aurélio Felippo Cruz Pessina Santos, Gustavo De Souza Minelli, Gustavo Duarte Güering, Thomas Correa Janini está licenciado sob <a href="https://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0).</a>
 
 ## 🎓 Referências
 
