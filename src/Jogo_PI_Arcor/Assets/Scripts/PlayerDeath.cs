@@ -22,7 +22,7 @@ public class PlayerDeath : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Obstacle"))
         {
-            Debug.LogError("Erro aqui!!!");
+            Debug.Log($"Morreu porque interagiu com {collision.gameObject.name}");
             Morrer();
         }
     }
@@ -31,6 +31,7 @@ public class PlayerDeath : MonoBehaviour
     {
         if (other.CompareTag("Obstacle"))
         {
+            Debug.Log($"Morreu porque interagiu com {other.gameObject.name}");
             Morrer();
         }
     }

@@ -1,5 +1,6 @@
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TriggerScript : MonoBehaviour
 {
@@ -22,6 +23,7 @@ public class TriggerScript : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Triggered = true;
+            SceneManager.LoadScene("Credits");
         }
     }
 }

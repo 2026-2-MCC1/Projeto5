@@ -14,19 +14,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSequence
   lines:
   - character: {fileID: 11400000, guid: 673b5c7d8bbf37a4291717fbe1bbb0ab, type: 2}
-    text: "\xC9 mais um dia como qualquer outro. O sol nasce mais uma vez, pessoas
-      fazem suas rotinas di\xE1rias. N\xE3o parece ter um problema no dia de hoje.
-      Realmente n\xE3o tem, mas algo preocupa Tortuguita, o mascote do principal
-      produto da Arcor.\n"
+    text: "Era mais um dia tranquilo em Arcoria, o mundo m\xE1gico da Arcor! O sol
+      brilhava, os doces estavam por toda parte e todos viviam felizes."
   - character: {fileID: 11400000, guid: 673b5c7d8bbf37a4291717fbe1bbb0ab, type: 2}
-    text: "Tortuguita percebeu que seus amigos, sendo eles os outros produtos da
-      Arcor, afinal, todos da Arcor s\xE3o amigos, n\xE3o est\xE3o acompanhando o
-      crescimento da tartaruga. Determinado, a Tortuguita vai atr\xE1s do principal
-      mascote da Arcor, o Arcorito, para inform\xE1-lo da m\xE1 not\xEDcia... "
+    text: "Mas algu\xE9m parecia muito preocupado. A Tortuguita, a tartaruga da Arcor
+      percebeu que alguns de seus amigos estavam sendo esquecidos!"
+  - character: {fileID: 11400000, guid: 673b5c7d8bbf37a4291717fbe1bbb0ab, type: 2}
+    text: Sem perder tempo, ela saiu correndo para encontrar o Arcorito, o mascote
+      da Arcor que ajuda todo mundo.
   - character: {fileID: 11400000, guid: c5495846c83c45b4b8cccdfee45271b9, type: 2}
-    text: Arcorito! Arcorito!
+    text: Arcorito! Arcorito! Preciso da sua ajuda!
   - character: {fileID: 11400000, guid: ccfbcd4a7229bad4cb710cc74f101ca5, type: 2}
-    text: Diga, minhs amiga Tortuguita.
+    text: "Ol\xE1 Tortuguita! Calma a\xED! O que aconteceu?"
   - character: {fileID: 11400000, guid: c5495846c83c45b4b8cccdfee45271b9, type: 2}
     text: "Nossos amigos est\xE3o em apuros! N\xE3o est\xE3o acompanhando o meu crescimento!
       Poosh, 7 Belo, Bon O Bon est\xE3o ficando para tr\xE1s. Enquanto outros como
