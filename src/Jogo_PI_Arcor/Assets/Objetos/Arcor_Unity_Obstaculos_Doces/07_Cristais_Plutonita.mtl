@@ -1,0 +1,33 @@
+# Materiais do pacote Arcor - cores difusas para importacao na Unity
+newmtl cyan
+Ka 0.0330 0.1804 0.1892
+Kd 0.1500 0.8200 0.8600
+Ks 0.18 0.18 0.18
+Ns 48
+d 1.0
+illum 2
+
+newmtl plum
+Ka 0.0550 0.0099 0.0792
+Kd 0.2500 0.0450 0.3600
+Ks 0.18 0.18 0.18
+Ns 48
+d 1.0
+illum 2
+
+newmtl purple
+Ka 0.0792 0.0264 0.1496
+Kd 0.3600 0.1200 0.6800
+Ks 0.18 0.18 0.18
+Ns 48
+d 1.0
+illum 2
+
+newmtl purple_light
+Ka 0.1386 0.0660 0.1980
+Kd 0.6300 0.3000 0.9000
+Ks 0.18 0.18 0.18
+Ns 48
+d 1.0
+illum 2
+
