@@ -10,28 +10,20 @@ Vide tutoriais do PI.
 <a href= "https://www.fecap.br/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZPrRa89Kma0ZZogxm0pi-tCn_TLKeHGVxywp-LXAFGR3B1DPouAJYHgKZGV0XTEf4AE&usqp=CAU" alt="FECAP - Fundação de Comércio Álvares Penteado" border="0"></a>
 </p>
 
-# Nome do Projeto
+# Arcoria
 
-## Nome do Grupo
+## Grupo GOTY
 
 ## Integrantes: <a href="https://www.linkedin.com/in/gustavo-g%C3%BCering-aa9583403?utm_source=share_via&utm_content=profile&utm_medium=member_ios">Gustavo Güering</a>, <a href="https://github.com/ThomasJanini">Thomas Janini</a>, <a href="https://www.linkedin.com/in/aur%C3%A9lio-felippo-9581372a2/">Felippo Cruz</a>, <a href="https://www.linkedin.com/in/gustavo-minelli-1ba9b03b4?utm_source=share_via&utm_content=profile&utm_medium=member_android">Gustavo Minelli</a>
 
-## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Dr. Victor Von Doom</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Saitama</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Strange</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Yoda</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Gero</a>
+## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Prof. Adriano Felix Valente</a>, <a href="https://www.linkedin.com/in/victorbarq/">Prof. Eduardo Savino Gomes</a>, <a href="https://www.linkedin.com/in/victorbarq/">Prof. Luis Fernando dos Santos Pires</a>, <a href="https://www.linkedin.com/in/victorbarq/">Prof. Renata Muniz do Nascimento</a>, <a href="https://www.linkedin.com/in/victorbarq/">Prof. Victor Bruno Alexander Rosetti de Quiroz</a>
 
-## Descrição
+## Arcoria é um jogo 3D para PC, desenvolvido na Unity com a linguagem C#. Com estilo de ação e aventura e jogabilidade inspirada em endless runners, o jogo apresenta uma aventura em terceira pessoa em um mundo colorido baseado no universo de produtos e personagens da Arcor. O jogador controla Arcorito, que recebe a missão de ajudar Tortuguita a recuperar os itens roubados do Baú das Delícias. Para completar o percurso pela Ilha dos Doces, é preciso avançar pelo cenário, desviar dos obstáculos e inimigos, pular e coletar os itens espalhados pelo caminho. O projeto foi desenvolvido como parte do Projeto Interdisciplinar do curso de Ciência da Computação da FECAP.
 
 <p align="center">
 <img src="https://pix4free.org/assets/library/2021-01-20/originals/game.jpg" alt="NOME DO JOGO" border="0">
-  Game by <a href="http://www.nyphotographic.com/">Nick Youngson</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://pix4free.org/">Pix4free</a>
+  Arcoria by <a href="https://www.linkedin.com/in/gustavo-g%C3%BCering-aa9583403?utm_source=share_via&utm_content=profile&utm_medium=member_ios">Gustavo Güering</a>, <a href="https://github.com/ThomasJanini">Thomas Janini</a>, <a href="https://www.linkedin.com/in/aur%C3%A9lio-felippo-9581372a2/">Felippo Cruz</a>, <a href="https://www.linkedin.com/in/gustavo-minelli-1ba9b03b4?utm_source=share_via&utm_content=profile&utm_medium=member_android">Gustavo Minelli</a>
 </p>
-
-
-De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
-<br><br>
-Meu projeto ajuda estudantes FECAP a configurarem seus githubs.
-<br><br>
-May the force be with you!
-<br><br>
 
 ## 🛠 Estrutura de pastas
 
@@ -50,39 +42,16 @@ May the force be with you!
   &emsp;|-->Frontend<br>
 |readme.md<br>
 
-A pasta raiz contem dois arquivos que devem ser alterados:
-
-<b>README.MD</b>: Arquivo que serve como guia e explicação geral sobre seu projeto. O mesmo que você está lendo agora.
-
-Há também 4 pastas que seguem da seguinte forma:
-
-<b>documentos</b>: Toda a documentação estará nesta pasta.
-
-<b>executáveis</b>: Binários e executáveis do projeto devem estar nesta pasta.
-
-<b>imagens</b>: Imagens do sistema
-
-<b>src</b>: Pasta que contém o código fonte.
-
 ## 🛠 Instalação
 
 <b>Android:</b>
 
-Faça o Download do JOGO.apk no seu celular.
-Execute o APK e siga as instruções de seu telefone.
-
-```sh
-Coloque código do prompt de comnando se for necessário
-```
+Arcoria não está disponível para celulares
 
 <b>Windows:</b>
 
 Não há instalação! Apenas executável!
 Encontre o JOGO.exe na pasta executáveis e execute-o como qualquer outro programa.
-
-```sh
-Coloque código do prompt de comnando se for necessário
-```
 
 <b>HTML:</b>
 
@@ -91,17 +60,16 @@ Encontre o index.html na pasta executáveis e execute-o como uma página WEB (at
 
 ## 💻 Configuração para Desenvolvimento
 
-Descreva como instalar todas as dependências para desenvolvimento e como rodar um test-suite automatizado de algum tipo. Se necessário, faça isso para múltiplas plataformas.
+Para trabalhar no projeto, são necessárias as seguintes ferramentas:
+- Unity Hub;
+- Unity Editor 6000.3.6f1;
+- uma IDE compatível com C#, como Visual Studio ou JetBrains Rider.
+As dependências do jogo estão registradas em src/Jogo_PI_Arcor/Packages/manifest.json e são gerenciadas pelo Unity Package Manager. Entre os recursos utilizados estão o Universal Render Pipeline (URP), o Input System e o TextMesh Pro.
 
 Para abrir este projeto você necessita das seguintes ferramentas:
 
 -<a href="https://godotengine.org/download">GODOT</a>
 
-```sh
-make install
-npm test
-Coloque código do prompt de comnando se for necessário
-```
 
 ## 📋 Licença/License
 Arcorito Adventures © 2026 por Aurélio Felippo Cruz Pessina Santos, Gustavo De Souza Minelli, Gustavo Duarte Güering, Thomas Correa Janini está licenciado sob Creative Commons Attribution-NoDerivatives 4.0 International
@@ -116,3 +84,4 @@ Aqui estão as referências usadas no projeto.
 4. <https://freesound.org/>
 5. <https://www.toptal.com/developers/gitignore>
 6. Músicas por: <a href="https://freesound.org/people/DaveJf/sounds/616544/"> DaveJf </a> e <a href="https://freesound.org/people/DRFX/sounds/338986/"> DRFX </a> ambas com Licença CC 0.
+7. <https://assetstore.unity.com/packages/3d/props/hyper-casual-obstacle-pack-221375#publisher>
