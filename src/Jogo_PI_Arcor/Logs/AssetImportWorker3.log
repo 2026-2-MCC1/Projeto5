@@ -1,11 +1,22 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-gueri" at "2026-11-10T02:46:45.2384624Z"
 Built from '6000.3/respin/6000.3.6f1-732c1ec89f18' branch; Version is '6000.3.6f1 (bbb010bdb8a3) revision 12300304'; Using compiler version '194234433'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'pt' Physical Memory: 8153 MB
+OS: 'Windows 11  (10.0.26200) Core' Language: 'pt' Physical Memory: 16252 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-11-10T02:46:45Z
+Date: 2026-11-10T02:56:42Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ADMIN LOCAL" at "2026-11-10T02:56:42.6585168Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 20720, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              2a1bbaec9bbe4812b448fd90ddf1e28a
+  Correlation Id:          91535a5f72dc92f08e7059c0410ec5ff
+  External correlation Id: 4958563028049150138
+  Machine Id:              5qJGzeGYVyMhhhwq1OV/Ppij6fc=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-ADMIN LOCAL" (connect: 0.00s, validation: 0.00s, handshake: 0.07s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ADMIN LOCAL-notifications" at "2026-11-10T02:56:42.7331234Z"
+[Licensing::Module] Licensing Background thread has ended after 0.08s
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.6f1\Editor\Unity.exe
@@ -15,23 +26,23 @@ C:\Program Files\Unity\Hub\Editor\6000.3.6f1\Editor\Unity.exe
 -name
 AssetImportWorker3
 -projectPath
-C:/Users/gueri/OneDrive/Área de Trabalho/Projeto5/src/Jogo_PI_Arcor
+C:/Users/ADMIN LOCAL/Documents/GitHub/Projeto5/src/Jogo_PI_Arcor
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-52707
+61226
 -licensingIpc
-LicenseClient-gueri
+LicenseClient-ADMIN LOCAL
 -job-worker-count
-3
+5
 -background-job-worker-count
 8
 -gc-helper-count
 1
 -name
 AssetImport
-Successfully changed project path to: C:/Users/gueri/OneDrive/Área de Trabalho/Projeto5/src/Jogo_PI_Arcor
-C:/Users/gueri/OneDrive/Área de Trabalho/Projeto5/src/Jogo_PI_Arcor
+Successfully changed project path to: C:/Users/ADMIN LOCAL/Documents/GitHub/Projeto5/src/Jogo_PI_Arcor
+C:/Users/ADMIN LOCAL/Documents/GitHub/Projeto5/src/Jogo_PI_Arcor
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
     "memorysetup-temp-allocator-size-audio-worker=65536"
@@ -67,24 +78,13 @@ C:/Users/gueri/OneDrive/Área de Trabalho/Projeto5/src/Jogo_PI_Arcor
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 10932, path: "C:/Users/gueri/OneDrive/Área de Trabalho/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
-[Licensing::Module] LicensingClient has failed validation; ignoring
-[Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.18.3+d7ffd15
-  Session Id:              1afaec27bba94a22994f5eb0ce3fcb7f
-  Correlation Id:          2edaa31fe44fad9cffdd11d329ea3f0d
-  External correlation Id: 7619500003358464641
-  Machine Id:              QUn5pRHTadeS0+RSma6rPQRPx0Q=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-gueri" (connect: 0.00s, validation: 0.00s, handshake: 0.20s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-gueri-notifications" at "2026-11-10T02:46:45.4379281Z"
-[Licensing::Module] Licensing Background thread has ended after 0.20s
-Player connection [17732]  Target information:
+Player connection [23344]  Target information:
 
-Player connection [17732]  * "[IP] 192.168.15.20 [Port] 0 [Flags] 2 [Guid] 2644706269 [EditorId] 2644706269 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MTM4CKB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [23344]  * "[IP] 192.168.15.159 [Port] 0 [Flags] 2 [Guid] 2074954972 [EditorId] 2074954972 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-F0H82DF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [17732] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [17732] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 3
+Player connection [23344] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [23344] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -95,60 +95,60 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 25.94 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 11.84 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.6f1 (bbb010bdb8a3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.6f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/gueri/OneDrive/Área de Trabalho/Projeto5/src/Jogo_PI_Arcor/Assets
+[Subsystems] Discovering subsystems at path C:/Users/ADMIN LOCAL/Documents/GitHub/Projeto5/src/Jogo_PI_Arcor/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Radeon RX550/550 Series (ID=0x699f)
-    Vendor:   ATI
-    VRAM:     2027 MB
-    Driver:   31.0.12029.10015
+    Renderer: NVIDIA GeForce RTX 5060 (ID=0x2d05)
+    Vendor:   NVIDIA
+    VRAM:     7896 MB
+    Driver:   32.0.16.2114
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56260
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56212
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.014568 seconds.
-- Loaded All Assemblies, in  1.172 seconds
+Registered in 0.004003 seconds.
+- Loaded All Assemblies, in  0.703 seconds
 Native extension for WindowsStandalone target not found
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.999 seconds
-Domain Reload Profiling: 2145ms
-	BeginReloadAssembly (475ms)
+- Finished resetting the current domain, in  0.652 seconds
+Domain Reload Profiling: 1356ms
+	BeginReloadAssembly (236ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (86ms)
-	RebuildNativeTypeToScriptingClass (33ms)
-	initialDomainReloadingComplete (133ms)
-	LoadAllAssembliesAndSetupDomain (420ms)
-		LoadAssemblies (454ms)
+	RebuildCommonClasses (60ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (86ms)
+	LoadAllAssembliesAndSetupDomain (301ms)
+		LoadAssemblies (227ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (413ms)
-			TypeCache.Refresh (410ms)
-				TypeCache.ScanAssembly (380ms)
+		AnalyzeDomain (285ms)
+			TypeCache.Refresh (281ms)
+				TypeCache.ScanAssembly (260ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (999ms)
+	FinalizeReload (653ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (883ms)
+		SetupLoadedEditorAssemblies (576ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (105ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (212ms)
-			ProcessInitializeOnLoadAttributes (326ms)
-			ProcessInitializeOnLoadMethodAttributes (232ms)
+			InitializePlatformSupportModulesInManaged (69ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (142ms)
+			ProcessInitializeOnLoadAttributes (248ms)
+			ProcessInitializeOnLoadMethodAttributes (111ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -162,15 +162,20 @@ Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInter
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
-  Id: 4674245813712-UnityPersXXXX
+  Id: F4-RP8W-XNMN-767X-QBAB-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 4674244694390-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  2.489 seconds
+- Loaded All Assemblies, in  1.682 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 8.10 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 3.12 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Package Manager log level set to [2]
@@ -182,708 +187,416 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.172 seconds
-Domain Reload Profiling: 4623ms
-	BeginReloadAssembly (543ms)
+- Finished resetting the current domain, in  1.347 seconds
+Domain Reload Profiling: 3013ms
+	BeginReloadAssembly (329ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (14ms)
+		DisableScriptedObjects (13ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (53ms)
-	RebuildCommonClasses (74ms)
-	RebuildNativeTypeToScriptingClass (24ms)
-	initialDomainReloadingComplete (99ms)
-	LoadAllAssembliesAndSetupDomain (1710ms)
-		LoadAssemblies (1288ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (97ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (1148ms)
+		LoadAssemblies (816ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (795ms)
-			TypeCache.Refresh (541ms)
-				TypeCache.ScanAssembly (507ms)
-			BuildScriptInfoCaches (219ms)
-			ResolveRequiredComponents (27ms)
-	FinalizeReload (2173ms)
+		AnalyzeDomain (510ms)
+			TypeCache.Refresh (368ms)
+				TypeCache.ScanAssembly (344ms)
+			BuildScriptInfoCaches (116ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1348ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1380ms)
+		SetupLoadedEditorAssemblies (1013ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (12ms)
-			BeforeProcessingInitializeOnLoad (365ms)
-			ProcessInitializeOnLoadAttributes (836ms)
-			ProcessInitializeOnLoadMethodAttributes (130ms)
-			AfterProcessingInitializeOnLoad (30ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (290ms)
+			ProcessInitializeOnLoadAttributes (583ms)
+			ProcessInitializeOnLoadMethodAttributes (114ms)
+			AfterProcessingInitializeOnLoad (14ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 10.19 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.85 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6852 unused Assets / (3.8 MB). Loaded Objects now: 7661.
-Memory consumption went from 145.8 MB to 142.0 MB.
-Total: 24.357600 ms (FindLiveObjects: 1.449800 ms CreateObjectMapping: 2.183800 ms MarkObjects: 15.689700 ms  DeleteObjects: 5.031100 ms)
+Unloading 6852 unused Assets / (5.4 MB). Loaded Objects now: 7660.
+Memory consumption went from 147.9 MB to 142.5 MB.
+Total: 14.255500 ms (FindLiveObjects: 0.786200 ms CreateObjectMapping: 0.720900 ms MarkObjects: 7.964800 ms  DeleteObjects: 4.781600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 33253.928003 seconds.
-  path: Assets/Objetos/Arcor_Sweets_Assets_Unity/bonobon.obj
-  artifactKey: Guid(6e3874355ac484750621c7943ed32fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/Arcor_Sweets_Assets_Unity/bonobon.obj using Guid(6e3874355ac484750621c7943ed32fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '725aa416f76c623dc12e0590250664db') in 1.1859387 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 38.521566 seconds.
-  path: Assets/Objetos/Arcor_Sweets_Assets_Unity/Materials/arvore_confeitada-CandyPurple.mat
-  artifactKey: Guid(92cd8e73037751f4b8b41ef81ff1434e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/Arcor_Sweets_Assets_Unity/Materials/arvore_confeitada-CandyPurple.mat using Guid(92cd8e73037751f4b8b41ef81ff1434e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c435a7fe6ff6bfe5f3332d8cdcc8324e') in 0.1153573 seconds
+  Time since last request: 25947.594416 seconds.
+  path: Assets/Materials/MAT_Box.mat
+  artifactKey: Guid(8148730dd63566f49afe5c3a76d59b68) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials/MAT_Box.mat using Guid(8148730dd63566f49afe5c3a76d59b68) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e983458cc0cd23d0e16fbb6094405abe') in 0.1589854 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Objetos/Arcor_Sweets_Assets_Unity/Materials/CandyTree_Lollipop-CandyBlue.mat
-  artifactKey: Guid(3e4e8f5324509f14190718c3e3fdcc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/Arcor_Sweets_Assets_Unity/Materials/CandyTree_Lollipop-CandyBlue.mat using Guid(3e4e8f5324509f14190718c3e3fdcc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '164943549613bc861bb12593492e2bf9') in 0.0498901 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Objetos/Arcor_Sweets_Assets_Unity/Materials/arvore_confeitada-LeafDark.mat
-  artifactKey: Guid(f7797d0238182d8499a2cfced2e90b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/Arcor_Sweets_Assets_Unity/Materials/arvore_confeitada-LeafDark.mat using Guid(f7797d0238182d8499a2cfced2e90b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad94c225425ef895a80c89ac1b39379f') in 0.0262138 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Objetos/Arcor_Sweets_Assets_Unity/Materials/CandyTree_Lollipop-CandyPink.mat
-  artifactKey: Guid(a28dedafafe14fc419e17f92efee5dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/Arcor_Sweets_Assets_Unity/Materials/CandyTree_Lollipop-CandyPink.mat using Guid(a28dedafafe14fc419e17f92efee5dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f7e7d6ae38b4d5f882964fe0b317276') in 0.0257292 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Objetos/Arcor_Sweets_Assets_Unity/Materials/barra_de_choco_1-ChocolateDark.mat
-  artifactKey: Guid(c222d25a6fa83824aaaec005741a5e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/Arcor_Sweets_Assets_Unity/Materials/barra_de_choco_1-ChocolateDark.mat using Guid(c222d25a6fa83824aaaec005741a5e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eee579d84cff5198c4f3446f70a76ac1') in 0.0232595 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Objetos/Arcor_Sweets_Assets_Unity/Materials/CandyTree_Gumdrops-LeafDark.mat
-  artifactKey: Guid(2e8d5248cb1f38345b619db76bb4a981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/Arcor_Sweets_Assets_Unity/Materials/CandyTree_Gumdrops-LeafDark.mat using Guid(2e8d5248cb1f38345b619db76bb4a981) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '91b6598cc55691b65adce5efd9814cd8') in 0.0248607 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Objetos/Arcor_Sweets_Assets_Unity/Materials/barra_de_choco_1-ChocolateLight.mat
-  artifactKey: Guid(6179cafa16ecb5e41a7d423c40add3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/Arcor_Sweets_Assets_Unity/Materials/barra_de_choco_1-ChocolateLight.mat using Guid(6179cafa16ecb5e41a7d423c40add3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f39b68142a6e3197af415240f4a4fe03') in 0.0235277 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/Objetos/Arcor_Sweets_Assets_Unity/Materials/arvore_doce-CandyYellow.mat
-  artifactKey: Guid(f8457e7437f59214cad8c373002c2734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/Arcor_Sweets_Assets_Unity/Materials/arvore_doce-CandyYellow.mat using Guid(f8457e7437f59214cad8c373002c2734) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e1c4bebc2537b5ac7bb242d0ce18e0b') in 0.0259726 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Objetos/Arcor_Sweets_Assets_Unity/Materials/CandyTree_Gumdrops-CandyPink.mat
-  artifactKey: Guid(f29ebf20f74f0214db968951ee39e2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/Arcor_Sweets_Assets_Unity/Materials/CandyTree_Gumdrops-CandyPink.mat using Guid(f29ebf20f74f0214db968951ee39e2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '672bba8dbafcd48692773013a7b7fc1d') in 0.0353249 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Objetos/Arcor_Sweets_Assets_Unity/Materials/arvore_confeitada-LeafMint.mat
-  artifactKey: Guid(73dd3a281f350fa40ae71861d8d7ccd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/Arcor_Sweets_Assets_Unity/Materials/arvore_confeitada-LeafMint.mat using Guid(73dd3a281f350fa40ae71861d8d7ccd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eed9c72d46187f93618aa867154037a6') in 0.0441421 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Objetos/Arcor_Sweets_Assets_Unity/Materials/CandyTree_Gumdrops-CandyCyan.mat
-  artifactKey: Guid(9fd0839f7634fd443af1fcceb83ab85b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/Arcor_Sweets_Assets_Unity/Materials/CandyTree_Gumdrops-CandyCyan.mat using Guid(9fd0839f7634fd443af1fcceb83ab85b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '22803f948d0bbe53fb192fa24194e5cb') in 0.0200257 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.752567 seconds.
-  path: Assets/Objetos/bonobon.obj
-  artifactKey: Guid(6e3874355ac484750621c7943ed32fd4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/bonobon.obj using Guid(6e3874355ac484750621c7943ed32fd4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c0ade4e59eef76cb78275daa7094aabf') in 0.4678284 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/Objetos/Materials
-  artifactKey: Guid(49e45953f0e3305428c650211fbb5563) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/Materials using Guid(49e45953f0e3305428c650211fbb5563) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd672ee813c92096c39720ffd703e4a67') in 0.017245 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Objetos/Materials/barra_de_choco_1-ChocolateDark.mat
-  artifactKey: Guid(fc8060024279aac4da6a053f7d44cb94) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/Materials/barra_de_choco_1-ChocolateDark.mat using Guid(fc8060024279aac4da6a053f7d44cb94) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0a9aeffc5d243df8f4a4e2ac7087e586') in 0.0384666 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Objetos/Materials/wafer-ChocolateMilk.mat
-  artifactKey: Guid(89cd5a9b13ad50f42bcf0579c62b2846) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/Materials/wafer-ChocolateMilk.mat using Guid(89cd5a9b13ad50f42bcf0579c62b2846) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fe6278e4b7d84ae458390733e1b94610') in 0.023888 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/Objetos/manifest.json
-  artifactKey: Guid(90117a066cfcc964199fa5e7fcb3993b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/manifest.json using Guid(90117a066cfcc964199fa5e7fcb3993b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '773644c98278adcce30defb6eef6426d') in 0.0211992 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Objetos/Materials/urso_doce-Black.mat
-  artifactKey: Guid(178c08e8acabf3e49b9a7c45334410e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/Materials/urso_doce-Black.mat using Guid(178c08e8acabf3e49b9a7c45334410e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fb8988629374005460ad350587c1142a') in 0.0245532 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Objetos/Materials/bonobon-WrapperGold.mat
-  artifactKey: Guid(d81755f42d67ea0479e2714cdc5e9cad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/Materials/bonobon-WrapperGold.mat using Guid(d81755f42d67ea0479e2714cdc5e9cad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4142be21fd5c05162ba482586d661fa2') in 0.0264026 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Objetos/Unity_Materials/CandyCyan.mat
-  artifactKey: Guid(70284744b694a00cc06860346f3718dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/Unity_Materials/CandyCyan.mat using Guid(70284744b694a00cc06860346f3718dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9b1d29f98cae589eedc10239fa4b9f6e') in 0.0256172 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/Objetos/Materials/arvore_confeitada-CandyBlue.mat
-  artifactKey: Guid(7f01b36c035c7d5469ef21be4900abe7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/Materials/arvore_confeitada-CandyBlue.mat using Guid(7f01b36c035c7d5469ef21be4900abe7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e9bef07451c019022cebb68b246f665e') in 0.0233952 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Objetos/Unity_Materials/GummyPink.mat
-  artifactKey: Guid(12dfd43029cf55367f8d8bd0351bb90b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/Unity_Materials/GummyPink.mat using Guid(12dfd43029cf55367f8d8bd0351bb90b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1b7313d5dd5cb131a9b32b3454473ce5') in 0.0192785 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Objetos/Unity_Materials/CandyPurple.mat
-  artifactKey: Guid(24a8cf28db0d7b32a904cf244d798f8b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/Unity_Materials/CandyPurple.mat using Guid(24a8cf28db0d7b32a904cf244d798f8b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '645c1c7b01c4178193d7ee31b46172a6') in 0.0130213 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Objetos/Unity_Materials/CandyLime.mat
-  artifactKey: Guid(96f3e441132e923438111e9525e9b7ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/Unity_Materials/CandyLime.mat using Guid(96f3e441132e923438111e9525e9b7ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0702a4b61ecf1401d4f819028a47b5ca') in 0.0359233 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Objetos/Materials/arvore_confeitada-CandyCyan.mat
-  artifactKey: Guid(5532be0607cac7b40a50403c08bad367) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/Materials/arvore_confeitada-CandyCyan.mat using Guid(5532be0607cac7b40a50403c08bad367) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f0db08c5f37718209a210a1376fe6b61') in 0.0299299 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Objetos/Unity_Materials/ChocolateCream.mat
-  artifactKey: Guid(bac20319bcb177fd1c5bd8493bcb28e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/Unity_Materials/ChocolateCream.mat using Guid(bac20319bcb177fd1c5bd8493bcb28e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a195692bded70e578b46260ae0f041d0') in 0.0224029 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Objetos/Materials/bonobon-ChocolateDark.mat
-  artifactKey: Guid(fef98101aa040d54ca491ec3dc0c186d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/Materials/bonobon-ChocolateDark.mat using Guid(fef98101aa040d54ca491ec3dc0c186d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2bc4e23e2680b60fba4143297267d9cd') in 0.0154228 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Objetos/Materials/wafer-WaferGold.mat
-  artifactKey: Guid(6a62b4ed07beabc4e8f963faaeb4cba1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/Materials/wafer-WaferGold.mat using Guid(6a62b4ed07beabc4e8f963faaeb4cba1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9bb12d60728008986c5371275072826a') in 0.0272239 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.935409 seconds.
-  path: Assets/Objetos/barreira_doce.obj
-  artifactKey: Guid(fa876f33d5e689d4c12e4778afdb6aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/barreira_doce.obj using Guid(fa876f33d5e689d4c12e4778afdb6aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e11d3b5e10fe6dc6f35f6d3ad184f20f') in 0.0539449 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Objetos/pirulito.obj
-  artifactKey: Guid(e2d4a46ed1c937b409a67785eee8dab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/pirulito.obj using Guid(e2d4a46ed1c937b409a67785eee8dab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dbb02862fff34e5680aa35b1ee9d8100') in 0.0862056 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 53.778053 seconds.
-  path: Assets/Objetos/Materials 1/CandyTree_Lollipop-TreeBark.mat
-  artifactKey: Guid(61b3b050d674ba54889f7669b31bab72) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/Materials 1/CandyTree_Lollipop-TreeBark.mat using Guid(61b3b050d674ba54889f7669b31bab72) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c2608910732d03dbd2a6d4fb7f94e350') in 0.0235676 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Objetos/Materials 1/Cookie_Obstacle-Cookie.mat
-  artifactKey: Guid(09d1b24721fb4ff44aeadd6870a8213a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/Materials 1/Cookie_Obstacle-Cookie.mat using Guid(09d1b24721fb4ff44aeadd6870a8213a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b31dc10de655024a902d1cf08b097d0a') in 0.0310775 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/Objetos/Materials 1/barra de choco_2-ChocolateMilk.mat
-  artifactKey: Guid(935fd7b09cdf4c34583df8dd21484f17) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/Materials 1/barra de choco_2-ChocolateMilk.mat using Guid(935fd7b09cdf4c34583df8dd21484f17) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a4531004f5b4798d10a5be7fa164bf0d') in 0.0272073 seconds
+  Time since last request: 0.000028 seconds.
+  path: Assets/Objetos/Unity_Materials/CandyOrange.mat
+  artifactKey: Guid(fa5f2903b0db7dcefaedf40abb4dbacf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objetos/Unity_Materials/CandyOrange.mat using Guid(fa5f2903b0db7dcefaedf40abb4dbacf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '516ec99330b6e3a5792769f885804aa2') in 0.0192019 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000037 seconds.
-  path: Assets/Objetos/Materials 1/CandyTree_Lollipop-CandyRed.mat
-  artifactKey: Guid(acc183d9a00829d479df50fe90f3c79d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/Materials 1/CandyTree_Lollipop-CandyRed.mat using Guid(acc183d9a00829d479df50fe90f3c79d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'babf4bd430b731f24e23369941a33f81') in 0.0302493 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Objetos/Arcor_Unity_Obstaculos_Doces/VISUALIZACAO_Cerca_Arvores.png
-  artifactKey: Guid(e2997655285c728418bb091c3727f2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/Arcor_Unity_Obstaculos_Doces/VISUALIZACAO_Cerca_Arvores.png using Guid(e2997655285c728418bb091c3727f2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b28f8690af46b2823db571ea054c07c') in 0.0769475 seconds
+  path: Assets/Settings/Mobile_RPAsset.asset
+  artifactKey: Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Settings/Mobile_RPAsset.asset using Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '047bee99e3c95acd0c00013761dc3c0d') in 0.1267824 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Objetos/Materials 1/Wafer_Block_Obstacle-Biscuit.mat
-  artifactKey: Guid(dae4b9d3e5c4e75448947884b8e696d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/Materials 1/Wafer_Block_Obstacle-Biscuit.mat using Guid(dae4b9d3e5c4e75448947884b8e696d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ce3acc210dfa4b221af9b909c5e4ba9b') in 0.0321444 seconds
+  Time since last request: 0.000020 seconds.
+  path: Assets/Objetos/Materials/barreira_doce-CandyRed.mat
+  artifactKey: Guid(c046174bd8d25cd4cb3bef7b891c389b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objetos/Materials/barreira_doce-CandyRed.mat using Guid(c046174bd8d25cd4cb3bef7b891c389b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '487b3c250faeba1124b8d80194461998') in 0.0250428 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Objetos/Materials 1/CandyTree_Gumdrops-CandyYellow.mat
-  artifactKey: Guid(c919f0c93208e534c9cd39bc232660ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/Materials 1/CandyTree_Gumdrops-CandyYellow.mat using Guid(c919f0c93208e534c9cd39bc232660ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2f5a6a541ebe060bb738dc8bd333c5cf') in 0.0291979 seconds
+  Time since last request: 0.000026 seconds.
+  path: Assets/Settings/DefaultVolumeProfile.asset
+  artifactKey: Guid(ab09877e2e707104187f6f83e2f62510) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Settings/DefaultVolumeProfile.asset using Guid(ab09877e2e707104187f6f83e2f62510) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd93446b99c6ce1a5249e3cc4a16d129a') in 0.0202561 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Objetos/Unity_Materials/GummyYellow.mat
+  artifactKey: Guid(ec12303aa4b88dc1a00e0282064c7515) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objetos/Unity_Materials/GummyYellow.mat using Guid(ec12303aa4b88dc1a00e0282064c7515) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '557fe8fdb5924f408fa757f845428cc7') in 0.0181825 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Objetos/Materials 1/arvore_doce-TreeBark.mat
-  artifactKey: Guid(19a1750500e206445be86665443d5cc2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/Materials 1/arvore_doce-TreeBark.mat using Guid(19a1750500e206445be86665443d5cc2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '39056994c807e9beba88d764388f78e8') in 0.0225058 seconds
+  Time since last request: 0.000019 seconds.
+  path: Assets/Objetos/Unity_Materials/White.mat
+  artifactKey: Guid(7b8a0b4f4a4b6ace406ee0fe23228977) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objetos/Unity_Materials/White.mat using Guid(7b8a0b4f4a4b6ace406ee0fe23228977) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '350d2643d18c2b5fa4b51c7aa9fa15d9') in 0.0146209 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Objetos/Materials 1/barra_de_choco_1-ChocolateMilk.mat
-  artifactKey: Guid(9459d0cdb5d140549a1a014c7789d1b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/Materials 1/barra_de_choco_1-ChocolateMilk.mat using Guid(9459d0cdb5d140549a1a014c7789d1b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '05d35f8ea04a3ae37a7c5e9496de8709') in 0.0391439 seconds
+  Time since last request: 0.000020 seconds.
+  path: Assets/Objetos/Unity_Materials/WrapperBlue.mat
+  artifactKey: Guid(e52e71a6eda1f170b50d3109b9f08bad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objetos/Unity_Materials/WrapperBlue.mat using Guid(e52e71a6eda1f170b50d3109b9f08bad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '881a268819a10dc5bde55bd684c925bb') in 0.0150848 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  artifactKey: Guid(052faaac586de48259a63d0c4782560b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(052faaac586de48259a63d0c4782560b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a39c97a16a3073be0dfe027b17b47e15') in 0.2675285 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph
+  artifactKey: Guid(a3d800b099a06e0478fb790c5e79057a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph using Guid(a3d800b099a06e0478fb790c5e79057a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6cb45be85994bd634ca981c315be4576') in 0.0542544 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph
+  artifactKey: Guid(f63d574838ccfb44f84acc05fed0af48) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph using Guid(f63d574838ccfb44f84acc05fed0af48) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '24d69d5e85fa507912c4a96221f797fa') in 0.0228463 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader
+  artifactKey: Guid(0178fcb869bafef4690d177d31d17db8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader using Guid(0178fcb869bafef4690d177d31d17db8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '16a4c9152611238c17dc9418277b3c57') in 0.020554 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+  artifactKey: Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader using Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c3581a5270d752c2d6e9360891c1cee0') in 0.0171662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Objetos/materials objs/Materials/arvore_confeitada-CandyRed.mat
+  artifactKey: Guid(0b0ca478a8d1448429f8044f2e36354b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objetos/materials objs/Materials/arvore_confeitada-CandyRed.mat using Guid(0b0ca478a8d1448429f8044f2e36354b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '32b06830f4be4bdc44d5263139fe5346') in 0.026055 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Objetos/materials objs/Materials/arvore_confeitada-CandyCyan.mat
+  artifactKey: Guid(ca7340c3850e4fb4e82574ba63e6dd1a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objetos/materials objs/Materials/arvore_confeitada-CandyCyan.mat using Guid(ca7340c3850e4fb4e82574ba63e6dd1a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '596fd12c89102f85c5fca930f3a60a25') in 0.0194545 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Objetos/materials objs/Materials/arvore_confeitada-CandyPurple.mat
+  artifactKey: Guid(92cd8e73037751f4b8b41ef81ff1434e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objetos/materials objs/Materials/arvore_confeitada-CandyPurple.mat using Guid(92cd8e73037751f4b8b41ef81ff1434e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bc7013aa5bd18d2a91e98060f57fe482') in 0.0177569 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000046 seconds.
-  path: Assets/Objetos/Materials 1/CandyTree_Gumdrops-CandyPurple.mat
-  artifactKey: Guid(b03c886788ef7c5468feed973a2e1818) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/Materials 1/CandyTree_Gumdrops-CandyPurple.mat using Guid(b03c886788ef7c5468feed973a2e1818) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5def924e0239def5a311429d1110727d') in 0.0192063 seconds
+  path: Assets/Scenes/GameOver.unity
+  artifactKey: Guid(d41eb039cb3f6a34db9d89aca098b1c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/GameOver.unity using Guid(d41eb039cb3f6a34db9d89aca098b1c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5b1f55fa4621a8f19502b27eee207f73') in 0.0187506 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Objetos/Materials 1/Gummy_Bear-GummyPink.mat
-  artifactKey: Guid(77254d5adcda22645ab12fbf25d6d51e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/Materials 1/Gummy_Bear-GummyPink.mat using Guid(77254d5adcda22645ab12fbf25d6d51e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8441f5715fd6c540e580bbe8105756cb') in 0.0281932 seconds
+  Time since last request: 0.000030 seconds.
+  path: Assets/Objetos/11_Cerca_Wafer_Chocolate.obj
+  artifactKey: Guid(7fcd1ae0c047c63478584cd1f06f8ac5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objetos/11_Cerca_Wafer_Chocolate.obj using Guid(7fcd1ae0c047c63478584cd1f06f8ac5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b6338ad8b9f98aeb22cc7570038c0bfd') in 0.0716287 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Objetos/materials objs/Materials/barra de choco_2-ChocolateDark.mat
+  artifactKey: Guid(e95f84d2b3f97a84a8e5892ea115f817) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objetos/materials objs/Materials/barra de choco_2-ChocolateDark.mat using Guid(e95f84d2b3f97a84a8e5892ea115f817) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '08884a7052eb60a927fa767687c5942d') in 0.0162921 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Objetos/Materials 1/barra_de_choco_1-ChocolateLight.mat
-  artifactKey: Guid(6179cafa16ecb5e41a7d423c40add3e1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/Materials 1/barra_de_choco_1-ChocolateLight.mat using Guid(6179cafa16ecb5e41a7d423c40add3e1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4e09560f94719f3d21480ca2cfd95abc') in 0.0270043 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/Objetos/Materials 1/CandyTree_Lollipop-CandyBlue.mat
-  artifactKey: Guid(3e4e8f5324509f14190718c3e3fdcc58) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/Materials 1/CandyTree_Lollipop-CandyBlue.mat using Guid(3e4e8f5324509f14190718c3e3fdcc58) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'be5de8ad42ce63e241b08cef047f7c0e') in 0.0283647 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Objetos/Materials 1/BonBon_Classic-ChocolateMilk.mat
-  artifactKey: Guid(49e1ea3de9c026042a4500e2cfca4a9f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/Materials 1/BonBon_Classic-ChocolateMilk.mat using Guid(49e1ea3de9c026042a4500e2cfca4a9f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b21790722cc7ed3e057d014137b256d1') in 0.0232288 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Objetos/Materials 1/CandyTree_Lollipop-CandyYellow.mat
-  artifactKey: Guid(2937d450a3a11f74f868afb740bdf173) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/Materials 1/CandyTree_Lollipop-CandyYellow.mat using Guid(2937d450a3a11f74f868afb740bdf173) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7aa85e615a8fdb942ab30312a39fb0ea') in 0.0333797 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Objetos/Materials 1/Chocolate_Bar_Obstacle-ChocolateMilk.mat
-  artifactKey: Guid(2f94f96e27302fe4aa5ac9df329753fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/Materials 1/Chocolate_Bar_Obstacle-ChocolateMilk.mat using Guid(2f94f96e27302fe4aa5ac9df329753fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '247750ff20772721c804456a1eba629b') in 0.0200263 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Objetos/Materials 1/arvore_confeitada-CandyRed.mat
-  artifactKey: Guid(0b0ca478a8d1448429f8044f2e36354b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/Materials 1/arvore_confeitada-CandyRed.mat using Guid(0b0ca478a8d1448429f8044f2e36354b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '047a3e13ac56949e74a7b4ebc51ee416') in 0.0308921 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Objetos/Materials 1/BonBon_Classic-ChocolateDark.mat
-  artifactKey: Guid(fd3255d7dd324e9459a823c829416656) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/Materials 1/BonBon_Classic-ChocolateDark.mat using Guid(fd3255d7dd324e9459a823c829416656) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd59a3de14c70dc1a971e27adb111d278') in 0.0299359 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Objetos/Materials 1/arvore_confeitada-TreeBark.mat
-  artifactKey: Guid(35d7eded29f37ee429721c531d62067b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/Materials 1/arvore_confeitada-TreeBark.mat using Guid(35d7eded29f37ee429721c531d62067b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '010cddf2c7104bbeb2c3e1de83ae4bd0') in 0.0243179 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.096737 seconds.
-  path: Assets/Objetos/Materials/arvore_confeitada-CandyPurple.mat
-  artifactKey: Guid(5e09f1f3a8b2aa4459d95f1d5a5ade32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/Materials/arvore_confeitada-CandyPurple.mat using Guid(5e09f1f3a8b2aa4459d95f1d5a5ade32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '265a1b22cdbf38f3f45df416e165cc3d') in 0.0268092 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Objetos/Materials/arvore_confeitada-LeafLime.mat
-  artifactKey: Guid(2eb8551678258dd4d80babe1a748d345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/Materials/arvore_confeitada-LeafLime.mat using Guid(2eb8551678258dd4d80babe1a748d345) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4dfb37602d8751e04dfccbd9c90b4f90') in 0.0376407 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/Objetos/Materials/arvore_doce-TreeBark.mat
-  artifactKey: Guid(adbf825f82cde314ea104d19cc2e90c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/Materials/arvore_doce-TreeBark.mat using Guid(adbf825f82cde314ea104d19cc2e90c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db49c2a71f1d9f122bed3e07b89af39c') in 0.0302893 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Objetos/Materials/wafer-Biscuit.mat
-  artifactKey: Guid(8640eb6515e62a84084f469bfa67cc15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/Materials/wafer-Biscuit.mat using Guid(8640eb6515e62a84084f469bfa67cc15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01259dee96f245dfd4a2264927aaa66f') in 0.025072 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Objetos/Materials/bonobon-ChocolateDark.mat
-  artifactKey: Guid(fef98101aa040d54ca491ec3dc0c186d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/Materials/bonobon-ChocolateDark.mat using Guid(fef98101aa040d54ca491ec3dc0c186d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15400d0c048905df1b4b3245e3c0fa62') in 0.0344917 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Objetos/Materials/barra_de_choco_1-ChocolateLight.mat
-  artifactKey: Guid(d0c6cff218aefc04e8d54508bc6e7bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/Materials/barra_de_choco_1-ChocolateLight.mat using Guid(d0c6cff218aefc04e8d54508bc6e7bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a942016a1b2e2795ae6fb7927502f85e') in 0.0344334 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Objetos/Materials/urso_doce-Black.mat
-  artifactKey: Guid(178c08e8acabf3e49b9a7c45334410e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/Materials/urso_doce-Black.mat using Guid(178c08e8acabf3e49b9a7c45334410e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e8ae0b5bd777b376a394027f7c1569bb') in 0.0418106 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Objetos/Unity_Materials/CandyCyan.mat
-  artifactKey: Guid(70284744b694a00cc06860346f3718dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/Unity_Materials/CandyCyan.mat using Guid(70284744b694a00cc06860346f3718dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28a53452b38cc234d7eb60f923f4bac1') in 0.023326 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Objetos/Unity_Materials/CandyYellow.mat
-  artifactKey: Guid(3ccf8e4e0924cdfaa8ba3e38d7a1a0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/Unity_Materials/CandyYellow.mat using Guid(3ccf8e4e0924cdfaa8ba3e38d7a1a0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '68dd53884f499e2272dbb62c2f3a3448') in 0.0390167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Objetos/Unity_Materials/WaferLight.mat
-  artifactKey: Guid(52eafc878fc9bb0d634464463bd3f2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/Unity_Materials/WaferLight.mat using Guid(52eafc878fc9bb0d634464463bd3f2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1f0b8a454ac8ea2209c4e5d6526788e') in 0.0332162 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/Objetos/Unity_Materials/White.mat
-  artifactKey: Guid(7b8a0b4f4a4b6ace406ee0fe23228977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/Unity_Materials/White.mat using Guid(7b8a0b4f4a4b6ace406ee0fe23228977) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38177884905ea63fcb5527361102cc9f') in 0.026571 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Objetos/Unity_Materials/WrapperRed.mat
-  artifactKey: Guid(b7b0937012be357f8ee7438f9f7458b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/Unity_Materials/WrapperRed.mat using Guid(b7b0937012be357f8ee7438f9f7458b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0dee1a3d63be8988f1d255e55733af8') in 0.0318419 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Objetos/Unity_Materials/GummyPink.mat
-  artifactKey: Guid(12dfd43029cf55367f8d8bd0351bb90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/Unity_Materials/GummyPink.mat using Guid(12dfd43029cf55367f8d8bd0351bb90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3bc9aac8c60446da9eb8001473b7b60c') in 0.0207187 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Objetos/Unity_Materials/CandyPink.mat
-  artifactKey: Guid(5dd7d049430f198a0225367fc6aa909a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/Unity_Materials/CandyPink.mat using Guid(5dd7d049430f198a0225367fc6aa909a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88ae09c97d7ae5c9f8f127e2fdfff7f0') in 0.0238534 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 48.876551 seconds.
-  path: Assets/Objetos/Obstaculos/11_Cerca_Wafer_Chocolate.mtl
-  artifactKey: Guid(32b66df2880dbb9408d892def415b728) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/Obstaculos/11_Cerca_Wafer_Chocolate.mtl using Guid(32b66df2880dbb9408d892def415b728) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f9900a669b471a0ea9b4ee53f0a0b09c') in 0.0411581 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.341575 seconds.
-  path: Assets/Objetos/materials objs/Materials/CandyTree_Gumdrops-CandyPink.mat
-  artifactKey: Guid(f29ebf20f74f0214db968951ee39e2cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/materials objs/Materials/CandyTree_Gumdrops-CandyPink.mat using Guid(f29ebf20f74f0214db968951ee39e2cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '70377b85b774a994d3d90cc4b9f55e4c') in 0.0218 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Objetos/materials objs/Materials/wafer-Biscuit.mat
-  artifactKey: Guid(83abb96b08c8a95448a2e8f178c45d0f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/materials objs/Materials/wafer-Biscuit.mat using Guid(83abb96b08c8a95448a2e8f178c45d0f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '20080c3f39c34501aca8471558de76f1') in 0.0188504 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Objetos/materials objs/Materials/bonobon-ChocolateCream.mat
-  artifactKey: Guid(0880e0394059143468568106aacc3221) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/materials objs/Materials/bonobon-ChocolateCream.mat using Guid(0880e0394059143468568106aacc3221) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '015057737cf19ccce442d05825c4c684') in 0.0267646 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Objetos/materials objs/Materials/bonobon-ChocolateMilk.mat
-  artifactKey: Guid(19f7c9c8cb851244db4d52f9fc25d3ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/materials objs/Materials/bonobon-ChocolateMilk.mat using Guid(19f7c9c8cb851244db4d52f9fc25d3ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '71deed3318aeee3cafacbb196e979d09') in 0.028318 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Objetos/materials objs/Materials/arvore_confeitada-CandyCyan.mat
-  artifactKey: Guid(ca7340c3850e4fb4e82574ba63e6dd1a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/materials objs/Materials/arvore_confeitada-CandyCyan.mat using Guid(ca7340c3850e4fb4e82574ba63e6dd1a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '250799aa6494f3246711b138e0323a91') in 0.0287936 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Objetos/materials objs/Materials/barra de choco_2-ChocolateLight.mat
-  artifactKey: Guid(d3c7949ca7153c2468f228e189c03430) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/materials objs/Materials/barra de choco_2-ChocolateLight.mat using Guid(d3c7949ca7153c2468f228e189c03430) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1b4279193bb4f602dcd3581533c1f42f') in 0.0218517 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Objetos/materials objs/Materials/urso_doce-CandyCream.mat
-  artifactKey: Guid(5f4e6b95ec1dc5d42961a585194822b9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/materials objs/Materials/urso_doce-CandyCream.mat using Guid(5f4e6b95ec1dc5d42961a585194822b9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '19e93460bf4d60f37ce3f6beeaa96d87') in 0.0467182 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Objetos/materials objs/Materials/barra_de_choco_1-ChocolateMilk.mat
-  artifactKey: Guid(9459d0cdb5d140549a1a014c7789d1b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/materials objs/Materials/barra_de_choco_1-ChocolateMilk.mat using Guid(9459d0cdb5d140549a1a014c7789d1b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '410915225d12de1176548f879344eb23') in 0.0625807 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/Objetos/materials objs/Materials/CandyTree_Gumdrops-CandyPurple.mat
-  artifactKey: Guid(b03c886788ef7c5468feed973a2e1818) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/materials objs/Materials/CandyTree_Gumdrops-CandyPurple.mat using Guid(b03c886788ef7c5468feed973a2e1818) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '57a8cde41fc7caba1ddb55e0f65c3deb') in 0.0279829 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Objetos/materials objs/Materials/CandyTree_Lollipop-TreeBark.mat
-  artifactKey: Guid(61b3b050d674ba54889f7669b31bab72) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/materials objs/Materials/CandyTree_Lollipop-TreeBark.mat using Guid(61b3b050d674ba54889f7669b31bab72) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dc0e56d2a5cdbd02d92e8ebb88829dee') in 0.0352618 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/Objetos/materials objs/Materials/wafer-WaferLight.mat
-  artifactKey: Guid(2971785410b8ba941ad33f160125ac5d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/materials objs/Materials/wafer-WaferLight.mat using Guid(2971785410b8ba941ad33f160125ac5d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b8fb3b0ea430572ab2d4702a22c592ef') in 0.022032 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Objetos/materials objs/Materials/Lollipop_Swirl-White.mat
-  artifactKey: Guid(af1501382ef75304cbfe558d52a63d94) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/materials objs/Materials/Lollipop_Swirl-White.mat using Guid(af1501382ef75304cbfe558d52a63d94) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b88ff3e18f311f91d5e63efd41d9afe2') in 0.0293071 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Objetos/materials objs/Materials/BonBon_Classic-ChocolateMilk.mat
-  artifactKey: Guid(49e1ea3de9c026042a4500e2cfca4a9f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/materials objs/Materials/BonBon_Classic-ChocolateMilk.mat using Guid(49e1ea3de9c026042a4500e2cfca4a9f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2abee9dca7951d466633f997399eea93') in 0.0280993 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Objetos/materials objs/Materials/CandyTree_Lollipop-CandyYellow.mat
-  artifactKey: Guid(2937d450a3a11f74f868afb740bdf173) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/materials objs/Materials/CandyTree_Lollipop-CandyYellow.mat using Guid(2937d450a3a11f74f868afb740bdf173) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '27e82eaadf4ec5623f58e679ea424c82') in 0.0183346 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
+  Time since last request: 0.000037 seconds.
   path: Assets/Objetos/materials objs/Materials/bonobon-ChocolateDark.mat
   artifactKey: Guid(c594101f809e70f4997671c4771e132c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/materials objs/Materials/bonobon-ChocolateDark.mat using Guid(c594101f809e70f4997671c4771e132c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '26f40b0acfaf1c3a3ad19f43c406f0c2') in 0.0157217 seconds
+Start importing Assets/Objetos/materials objs/Materials/bonobon-ChocolateDark.mat using Guid(c594101f809e70f4997671c4771e132c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '36bdd554549f5ace6eb88b02299ddb54') in 0.0185015 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Objetos/materials objs/Materials/arvore_confeitada-CandyRed.mat
-  artifactKey: Guid(0b0ca478a8d1448429f8044f2e36354b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/materials objs/Materials/arvore_confeitada-CandyRed.mat using Guid(0b0ca478a8d1448429f8044f2e36354b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6f852d701d8f6db1d1ef21c525908036') in 0.0189502 seconds
+  Time since last request: 0.000024 seconds.
+  path: Assets/Objetos/materials objs/Materials/bonobon-ChocolateCream.mat
+  artifactKey: Guid(0880e0394059143468568106aacc3221) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objetos/materials objs/Materials/bonobon-ChocolateCream.mat using Guid(0880e0394059143468568106aacc3221) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6491042f270757dac24c9916c680cef5') in 0.0162496 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Objetos/materials objs/Materials/BonBon_Classic-ChocolateDark.mat
-  artifactKey: Guid(fd3255d7dd324e9459a823c829416656) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/materials objs/Materials/BonBon_Classic-ChocolateDark.mat using Guid(fd3255d7dd324e9459a823c829416656) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4714e2a477638cea8910dd8d40d81c32') in 0.0271304 seconds
+  Time since last request: 0.000024 seconds.
+  path: Assets/Objetos/materials objs/Materials/BonBon_Wrapped-WrapperRed.mat
+  artifactKey: Guid(008875e367e534e449e56d82c5f83110) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objetos/materials objs/Materials/BonBon_Wrapped-WrapperRed.mat using Guid(008875e367e534e449e56d82c5f83110) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '68de65fbcd308122ea036330e458eec8') in 0.0175485 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Objetos/materials objs/Materials/wafer-WaferGold.mat
-  artifactKey: Guid(798a1eb4c9b438a4b98b702403df837e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Objetos/materials objs/Materials/wafer-WaferGold.mat using Guid(798a1eb4c9b438a4b98b702403df837e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b2980aa8c4f089ee51d4308a39a6ac4a') in 0.0174512 seconds
+  Time since last request: 0.000024 seconds.
+  path: Assets/Objetos/materials objs/Materials/CandyTree_Gumdrops-CandyBlue.mat
+  artifactKey: Guid(5c0ce74ad8741b54fb07913bfce123b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objetos/materials objs/Materials/CandyTree_Gumdrops-CandyBlue.mat using Guid(5c0ce74ad8741b54fb07913bfce123b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7c38aabc1865482a9e6902f4036601dd') in 0.0158628 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 26.771724 seconds.
-  path: Assets/Settings/UniversalRenderPipelineGlobalSettings.asset
-  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '479977c109e4d34ea1b3265fa7218131') in 0.0036707 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 0.000041 seconds.
+  path: Assets/Objetos/Materials/urso_doce-GummyPink.mat
+  artifactKey: Guid(151a7b7d050473542a790acb85e79d31) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objetos/Materials/urso_doce-GummyPink.mat using Guid(151a7b7d050473542a790acb85e79d31) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4d04acce347d1bbd6ddc173dad010d6f') in 0.0174915 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Objetos/materials objs/Materials/cookie-Cookie.mat
+  artifactKey: Guid(73df79f150e066f4c907e2863124f9a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objetos/materials objs/Materials/cookie-Cookie.mat using Guid(73df79f150e066f4c907e2863124f9a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c9bbdb59cb305d8aa15fec77b6798868') in 0.0183518 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Objetos/materials objs/Materials/Chocolate_Bar_Obstacle-ChocolateMilk.mat
+  artifactKey: Guid(2f94f96e27302fe4aa5ac9df329753fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objetos/materials objs/Materials/Chocolate_Bar_Obstacle-ChocolateMilk.mat using Guid(2f94f96e27302fe4aa5ac9df329753fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a8272f338cd61b0007a65f81101048d2') in 0.0168192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Objetos/materials objs/Materials/CandyTree_Gumdrops-CandyRed.mat
+  artifactKey: Guid(7af1e40be46bc2145bbf4af7a98a82d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objetos/materials objs/Materials/CandyTree_Gumdrops-CandyRed.mat using Guid(7af1e40be46bc2145bbf4af7a98a82d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0d1dc948ec6078642bb8dfd311fec3b4') in 0.0191911 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Objetos/materials objs/Materials/Gummy_Bear-GummyRed.mat
+  artifactKey: Guid(b46642c362833d644b3b00f4f87f8759) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objetos/materials objs/Materials/Gummy_Bear-GummyRed.mat using Guid(b46642c362833d644b3b00f4f87f8759) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '168511c6ff89adbaef979b946f5ced29') in 0.0184352 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Objetos/materials objs/Materials/Gummy_Bear-CandyCream.mat
+  artifactKey: Guid(a1b589a3619eb50478ee5633be2e1efb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objetos/materials objs/Materials/Gummy_Bear-CandyCream.mat using Guid(a1b589a3619eb50478ee5633be2e1efb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f2dfb8171740f980d5564ce3122c835f') in 0.0203996 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Objetos/materials objs/Materials/Gummy_Bear-GummyPink.mat
+  artifactKey: Guid(77254d5adcda22645ab12fbf25d6d51e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objetos/materials objs/Materials/Gummy_Bear-GummyPink.mat using Guid(77254d5adcda22645ab12fbf25d6d51e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '22bfb24774e0a54e56f568c8e878c393') in 0.0167869 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+  artifactKey: Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9434612119c858eba59db5125d836cb5') in 0.0163148 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c91bbe09a2626dceedb63fd672a95042') in 0.0294044 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5cddfc045d6c13a4526073e7b5252a5e') in 0.0731512 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Objetos/materials objs/Materials/CandyTree_Gumdrops-TreeBark.mat
+  artifactKey: Guid(bda3f4afd98186a4dae013a603ce71cd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objetos/materials objs/Materials/CandyTree_Gumdrops-TreeBark.mat using Guid(bda3f4afd98186a4dae013a603ce71cd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'eb8766c092ccf680a5c039fe21c42282') in 0.011956 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Objetos/barra_de_choco_1.obj
+  artifactKey: Guid(e99f6df08bed5ac7726b984a3609f89e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objetos/barra_de_choco_1.obj using Guid(e99f6df08bed5ac7726b984a3609f89e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1d016fe81233f743d663b2ff9ac7688b') in 0.0218835 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Audio/Welcome to the Kingdom.mp3
+  artifactKey: Guid(fc6d6c2d399f0164ca65e597e8fe18af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Audio/Welcome to the Kingdom.mp3 using Guid(fc6d6c2d399f0164ca65e597e8fe18af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '67d3ac79bebe9bd3926f70d440bd5f94') in 0.0395885 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Objetos/materials objs/Materials/bonobon-WrapperGold.mat
+  artifactKey: Guid(d520c076edc8d104685594d331427999) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objetos/materials objs/Materials/bonobon-WrapperGold.mat using Guid(d520c076edc8d104685594d331427999) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '23527688c690c70dfa7208a16fa25760') in 0.0122379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Objetos/Unity_Materials/CandyLime.mat
+  artifactKey: Guid(96f3e441132e923438111e9525e9b7ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objetos/Unity_Materials/CandyLime.mat using Guid(96f3e441132e923438111e9525e9b7ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '59b7448af7954ffffaa3d5712f3fde02') in 0.0132333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Objetos/materials objs/Materials/arvore_confeitada-CandyOrange.mat
+  artifactKey: Guid(cb8f73b874f765149abd424355513b49) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objetos/materials objs/Materials/arvore_confeitada-CandyOrange.mat using Guid(cb8f73b874f765149abd424355513b49) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a7155dc0535ac31831f310a6b35950cb') in 0.0117078 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Objetos/Arcor_Unity_Obstaculos_Doces/07_Cristais_Plutonita.obj
+  artifactKey: Guid(5b74539fe275aa642a7027c3c2489fde) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objetos/Arcor_Unity_Obstaculos_Doces/07_Cristais_Plutonita.obj using Guid(5b74539fe275aa642a7027c3c2489fde) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '740cb8873883ee0f0228b7929bc0b521') in 0.0193339 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro.cginc
+  artifactKey: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cc73492cd73aa2782770b524369bb922') in 0.0104138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
+  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '04fc2a240d5652f5e9c97a57fedce293') in 0.0289583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+  artifactKey: Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader using Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cebff779f3eeaea880cf1caa1a76e279') in 0.0108391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.json
+  artifactKey: Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.json using Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '39a3cc6129448db9f336bf10f27a5737') in 0.0106591 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Objetos/Materials/bonobon-ChocolateDark.mat
+  artifactKey: Guid(fef98101aa040d54ca491ec3dc0c186d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objetos/Materials/bonobon-ChocolateDark.mat using Guid(fef98101aa040d54ca491ec3dc0c186d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9d9fab452925476d850d6659ba76bc7b') in 0.0112206 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Materials/7belo_main_label.png
+  artifactKey: Guid(54ffec866a954914e9c5bf14e850b869) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials/7belo_main_label.png using Guid(54ffec866a954914e9c5bf14e850b869) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8ff815dbd2767be7e14badfcde3e7d23') in 0.0384876 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
