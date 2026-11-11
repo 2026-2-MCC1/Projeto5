@@ -44,3 +44,6 @@ MonoBehaviour:
       cuidado, a Plutonita parece estranha..."
   - character: {fileID: 11400000, guid: ccfbcd4a7229bad4cb710cc74f101ca5, type: 2}
     text: "Qu\xEA...?"
+  - character: {fileID: 11400000, guid: 673b5c7d8bbf37a4291717fbe1bbb0ab, type: 2}
+    text: "Pressione A e D para ir para a esquerda e direita, respectivamente. (Setinhas
+      tamb\xE9m funcionam). Espa\xE7o para pular. ESC para pausar."

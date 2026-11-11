@@ -690,23 +690,15 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: []
+      m_SelectedIDs:
+      - m_Data: 55518
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
-      - m_Data: -55482
+      - m_Data: -55090
       - m_Data: -53974
-      - m_Data: 66690
-      - m_Data: 67916
+      - m_Data: 67326
       - m_Data: 68562
-      - m_Data: 68972
-      - m_Data: 70282
-      - m_Data: 70394
-      - m_Data: 71484
-      - m_Data: 71498
-      - m_Data: 72354
-      - m_Data: 73060
-      - m_Data: 73420
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1173,9 +1165,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 8.8050995, y: -97.54492, z: 211.86024}
+    m_Target: {x: -124.14703, y: -76.51215, z: 275.43845}
     speed: 2
-    m_Value: {x: 8.8050995, y: -97.54492, z: 211.86024}
+    m_Value: {x: -124.14703, y: -76.51215, z: 275.43845}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1221,13 +1213,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.0009854456, y: 0.9886686, z: -0.15125726, w: 0.005585715}
+    m_Target: {x: -0.101843156, y: 0.87197745, z: -0.20544256, w: -0.43295908}
     speed: 2
-    m_Value: {x: 0.0009852601, y: 0.98848253, z: -0.1512288, w: 0.005584664}
+    m_Value: {x: -0.10182396, y: 0.8718131, z: -0.20540385, w: -0.43287748}
   m_Size:
-    m_Target: 189.66817
+    m_Target: 89.69462
     speed: 2
-    m_Value: 189.66817
+    m_Value: 89.69462
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1384,7 +1376,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1394,7 +1386,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: "C:\\Users\\aurel\\OneDrive\\\xC1rea de Trabalho\\Projeto5\\src\\Jogo_PI_Arcor"
   m_LockTracker:
@@ -1403,9 +1395,9 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
     m_SelectedIDs:
-    - m_Data: 66306
+    - m_Data: 66308
     m_LastClickedID:
-      m_Data: 66306
+      m_Data: 66308
     m_ExpandedIDs:
     - m_Data: 0
     - m_Data: 66286
@@ -1467,8 +1459,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: []
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs:
+    - m_Data: 55518
+    m_LastClickedInstanceID: 55518
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs:
     - m_Data: 58902
