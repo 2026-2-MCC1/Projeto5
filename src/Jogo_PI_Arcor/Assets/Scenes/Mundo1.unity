@@ -632,6 +632,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: barreira_doce (27)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1508,6 +1512,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
       propertyPath: m_Name
       value: barreira_doce (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5862,6 +5870,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candy_Cane_Barrier (10)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8084,6 +8096,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candy_Cane_Barrier (15)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -8697,6 +8713,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
       propertyPath: m_Name
       value: barreira_doce (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11654,6 +11674,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candy_Cane_Barrier (7)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12447,6 +12471,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candy_Cane_Barrier (18)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -13066,6 +13094,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
       propertyPath: m_Name
       value: Candy_Cane_Barrier (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15227,6 +15259,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
       propertyPath: m_Name
       value: barreira_doce (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17432,6 +17468,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: barreira_doce (9)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18047,6 +18087,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candy_Cane_Barrier (11)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18123,6 +18167,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
       propertyPath: m_Name
       value: Candy_Cane_Barrier (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20128,6 +20176,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candy_Cane_Barrier (17)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21952,6 +22004,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
       propertyPath: m_Name
       value: barreira_doce (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24204,6 +24260,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: barreira_doce (15)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25410,6 +25470,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
       propertyPath: m_Name
       value: barreira_doce (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27154,6 +27218,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: barreira_doce (26)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27937,6 +28005,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
       propertyPath: m_Name
       value: barreira_doce (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -30390,6 +30462,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: barreira_doce (11)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -31200,6 +31276,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
       propertyPath: m_Name
       value: Candy_Cane_Barrier (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -33238,6 +33318,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
       propertyPath: m_Name
       value: Candy_Cane_Barrier (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -35279,6 +35363,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candy_Cane_Barrier
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -36801,6 +36889,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
       propertyPath: m_Name
       value: Candy_Cane_Barrier (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -42390,6 +42482,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: barreira_doce (10)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -45473,6 +45569,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: barreira_doce (8)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -45604,6 +45704,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
       propertyPath: m_Name
       value: Candy_Cane_Barrier (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -52591,6 +52695,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candy_Cane_Barrier (8)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -57344,6 +57452,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: barreira_doce (22)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -59212,6 +59324,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
       propertyPath: m_Name
       value: barreira_doce (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -62164,6 +62280,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
       propertyPath: m_Name
       value: Candy_Cane_Barrier (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -65618,6 +65738,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: barreira_doce (30)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -66501,6 +66625,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
       propertyPath: m_Name
       value: barreira_doce (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -68283,6 +68411,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: barreira_doce (12)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -68591,6 +68723,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
       propertyPath: m_Name
       value: barreira_doce (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -69829,6 +69965,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
       propertyPath: m_Name
       value: barreira_doce (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -75789,6 +75929,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: barreira_doce (24)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -76142,6 +76286,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CandyTree_Gumdrops (12)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 3367ca06d93ca4ccffbe8725d9ea9851, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -76174,8 +76322,8 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 1
-  m_Height: 4
+  m_Radius: 0.8
+  m_Height: 3.5
   m_Direction: 1
   m_Center: {x: 0, y: 2, z: 0}
 --- !u!1001 &1613881850
@@ -77942,6 +78090,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
       propertyPath: m_Name
       value: barreira_doce (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -83831,6 +83983,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candy_Cane_Barrier (16)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -85849,6 +86005,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CandyTree_Gumdrops (87)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 3367ca06d93ca4ccffbe8725d9ea9851, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -86055,6 +86215,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
       propertyPath: m_Name
       value: Candy_Cane_Barrier (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -88213,6 +88377,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
       propertyPath: m_Name
       value: barreira_doce (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -94096,8 +94264,8 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 1
-  m_Height: 4
+  m_Radius: 0.8
+  m_Height: 3.5
   m_Direction: 1
   m_Center: {x: 0, y: 2, z: 0}
 --- !u!4 &1968631768 stripped
@@ -100394,6 +100562,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
       propertyPath: m_Name
       value: barreira_doce (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fa876f33d5e689d4c12e4778afdb6aa3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
